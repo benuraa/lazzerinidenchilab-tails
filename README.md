@@ -23,6 +23,6 @@ The project repo contains the following subfolders and files:
 
 The subfolder containing the primary RNAi Tails screen results relevant for this manuscript is:
 
-- `spots_561_int_sum`: These are data relative to the sum of the intensity of the 561 nm native telomeric FISH channel spots detected by Columbus on a per cell basis. The per cell values are then avaeraged on a per well basis. This is the primary feature used to identify hits in the screen.
+- `spots_561_int_sum`: These are data relative to the sum of the intensity of the 561 nm native telomeric FISH channel spots detected by Columbus on a per cell basis. The per cell values are then avaeraged on a per well basis. This is the primary feature used to identify hits in the screen. The results can be found in the `Results_table.txt` file.
 
 For information about this repo, please contact [Eros Lazzerini Denchi](mailto:eros.lazzerinidenchi@nih.gov) or [Gianluca Pegoraro](mailto:gianluca.pegoraro@nih.gov).

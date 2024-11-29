@@ -1,7 +1,7 @@
 # lazzerinidenchilab-tails
 ### General Information
 
-This is a repo containing the R code used to generate the bioRxiv preperint from the Lazzerini-Denchi Lab at the National Cancer Institute/NIH. The R code heavily uses the [cellHTS2 package](https://bioconductor.riken.jp/packages/3.13/bioc/html/cellHTS2.html).
+This is a repo containing the R code used to generate the bioRxiv preprint from the Lazzerini-Denchi Lab at the National Cancer Institute/NIH. The R code heavily uses the [cellHTS2 package](https://bioconductor.riken.jp/packages/3.13/bioc/html/cellHTS2.html).
 
 **Title:** [Identification of novel modulators of the ALT pathway through native FISH-based optical screen](http://biorxiv.org/lookup/doi/10.1101/2024.11.15.623791)
 
@@ -23,6 +23,6 @@ The project repo contains the following subfolders and files:
 
 The subfolder containing the primary RNAi Tails screen results relevant for this manuscript is:
 
-- `spots_561_int_sum`: These are data relative to the sum of the intensity of the 561 nm native telomeric FISH channel spots detected by Columbus on a per cell basis. The per cell values are then avaeraged on a per well basis. This is the primary feature used to identify hits in the screen. The results can be found in the `Results_table.txt` file.
+- `spots_561_int_sum`: These are data relative to the sum of the intensity of the native telomeric FISH channel spots detected by Columbus on a per cell basis. The per cell values are then averaged on a per well basis. This is the primary feature used to identify hits in the screen. The results can be found in the `Results_table.txt` file.
 
 For information about this repo, please contact [Eros Lazzerini Denchi](mailto:eros.lazzerinidenchi@nih.gov) or [Gianluca Pegoraro](mailto:gianluca.pegoraro@nih.gov).

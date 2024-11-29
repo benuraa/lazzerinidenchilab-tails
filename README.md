@@ -1,7 +1,7 @@
 # lazzerinidenchilab-tails
 ### General Information
 
-This is a repo containing the R code used to generate the bioRxiv preprint from the Lazzerini-Denchi Lab at the National Cancer Institute/NIH. The preprint describe the imaging-based TAILS screen for identification of novel regulatros of the Alternative Lengthening of Telomeres (ALT) pathway.The R code heavily uses the [cellHTS2 package](https://bioconductor.riken.jp/packages/3.13/bioc/html/cellHTS2.html).
+This is a repo containing the R code used to generate the bioRxiv preprint from the Lazzerini-Denchi Lab at the National Cancer Institute/NIH. The preprint describe the imaging-based TAILS screen for identification of novel regulators of the Alternative Lengthening of Telomeres (ALT) pathway.The R code heavily uses the [cellHTS2 package](https://bioconductor.riken.jp/packages/3.13/bioc/html/cellHTS2.html).
 
 **Title:** [Identification of novel modulators of the ALT pathway through native FISH-based optical screen](http://biorxiv.org/lookup/doi/10.1101/2024.11.15.623791)
 

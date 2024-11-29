@@ -1,0 +1,108 @@
+---
+title: "sgRNA Epigenetics - sgRNA Sequences Tables"
+author: "Gianluca Pegoraro"
+date: today
+date-format: long
+format: 
+  html:
+      self-contained: true
+      code-fold: true
+      code-tools: true
+      code-link: true
+editor: source
+---
+
+## README
+
+This script is used to generate a table of sequences for the sgRNAs present in the sgEpigenetic library from Synthego + the ones present in the sgGuin custom library.
+
+
+
+Plates HT001453, HT001456, HT001459 (All plates 3 of the screen) were unusable because most of the cells from columns 17 to 24 in these plates were lost. We identified the issue with the Bluewasher program for cell fixation that caused this issue and corrected it. As a result, a new batch of plates 1 - 3 was spotted:
+
+## Setup
+
+Load packages.
+
+```{r}
+#| label: load-packages
+#| message: false
+
+library(tidyverse)
+library(fs)
+library(paint)
+```
+
+## sgRNA input and wrangling
+
+Read the sgRNA layout information provided by Synthego for the Epigenetics Library. 3 sgRNA oligos per well. 3 plates.
+
+```{r}
+#| label: read-epi-gene-list
+
+epi_gene_tbl <- 
+  dir_ls(path = "reformat_metadata/Synthego",
+         glob = "*qc.csv") |>
+  read_csv(
+    id = "file_name",
+    col_names = c("mother_well",
+                  "gene_symbol",
+                  "oligo_seq"),
+    col_types = "ccc"
+  ) |>
+  select(gene_symbol, oligo_seq) |>
+  group_by(gene_symbol) |>
+  mutate(oligo_id = seq(1:n())) |>
+  pivot_wider(id_cols = gene_symbol,
+              names_prefix = "sgrna_oligo_",
+              names_from = oligo_id, 
+              values_from = oligo_seq) |>
+  ungroup()
+
+paint(epi_gene_tbl)
+```
+
+Read the sgRNA layout information provided by Synthego for the Guin Library. 3 sgRNA oligos per well. 1 plate.
+
+```{r}
+#| label: read-guin-gene-list
+
+guin_gene_tbl <- read_csv("reformat_metadata/Synthego/guin_library.csv") |>
+  select(gene_symbol = gene,
+         oligo_seq = customer_sequence) |>
+  mutate(oligo_seq = str_replace_all(oligo_seq, "\\*", ""),
+         oligo_seq = str_replace_all(oligo_seq, " \\+ Synthego modified EZ Scaffold", "")) |>
+  group_by(gene_symbol) |>
+  mutate(oligo_id = seq(1:n())) |>
+  filter(oligo_id <= 3) |>
+  pivot_wider(id_cols = gene_symbol,
+              names_prefix = "sgrna_oligo_",
+              names_from = oligo_id, 
+              values_from = oligo_seq) |>
+  ungroup()
+
+glimpse(guin_gene_tbl)
+```
+
+Concatenate Epigenetics gene table with Guin gene table.
+
+```{r}
+#| label: contatenate-gene-lists
+
+gene_tbl <- bind_rows(epi_gene_tbl, guin_gene_tbl)
+
+glimpse(gene_tbl)
+```
+
+Write the gene table to a file.
+```{r}
+#| label: write-gene-table
+
+write_csv(gene_tbl, "knitr_output/sgRNA_sequences_table.csv")
+```
+
+Document the information about the analysis session
+
+```{r}
+sessionInfo()
+```

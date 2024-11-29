@@ -1,0 +1,1489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+<html>
+  <head>
+    <title>
+      cellHTS2 Experiment Report
+    </title>
+    <link rel="stylesheet" href="../html/cellHTS.css" type="text/css">
+    <script type="text/javascript" src="../html/cellHTS.js"></script>
+    <script src="../html/sorttable.js"></script>
+   </head>
+   <body onload="initialize();">
+     <script type="text/javascript" src="../html/wz_tooltip.js"></script>
+
+            <table class="imageStack" align="center">
+              <tr><td class="header">Experiment report for Plate 2 <i><small>(normalized)</small></i></td></tr>
+              <tr>
+                <td class="tabs">
+
+    <div class="tab small">
+      <table class="bar small">
+	<tr>
+	  <td class="topbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="bar">
+	  </td>
+	</tr>
+      </table>
+      <table class="tabs">
+	<tr>
+	  <td>
+
+	    <table class="small selected perExpQCReplicate" onClick="toggleTabByReplicate('perExpQCReplicate', this, 1) "  onmouseover="Tip('The reproducibility of the measurement values between replicates. For the case of two replicates, this is a simple scatter plot. For more than two replicates we plot the correlation matrix. Please note that the assumption of correlated data does not hold for all experiment designs; e.g., most of the measurement values could be random noise, in which case they would be completely independent.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();"">
+	      <tr>
+		<td class="left">
+		  &nbsp&nbsp
+		</td>
+		<td class="middle">
+                  <span>
+		     Correlation
+                  </span>
+		</td>
+		<td class="right">
+		  &nbsp&nbsp		
+		</td>
+	      </tr>
+	    </table>
+
+	    <table class="small unselected perExpQCReplicate" onClick="toggleTabByReplicate('perExpQCReplicate', this, 2) "  onmouseover="Tip('Plots of log-intensity averages vs. log-intensity ratios across replicates. They highlight the relationship between signal variability and signal intensity. If there are more than two replicates, a single M-A plot is generated for each one against the average replicate values.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();"">
+	      <tr>
+		<td class="left">
+		  &nbsp&nbsp
+		</td>
+		<td class="middle">
+                  <span>
+		     M-A Plot
+                  </span>
+		</td>
+		<td class="right">
+		  &nbsp&nbsp		
+		</td>
+	      </tr>
+	    </table>
+
+	    <table class="small unselected perExpQCReplicate" onClick="toggleTabByReplicate('perExpQCReplicate', this, 3) "  onmouseover="Tip('Histograms of the raw or normalized measurement values for the respective replicates. This can be useful to compare data distributions between replicates.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();"">
+	      <tr>
+		<td class="left">
+		  &nbsp&nbsp
+		</td>
+		<td class="middle">
+                  <span>
+		     Histograms
+                  </span>
+		</td>
+		<td class="right">
+		  &nbsp&nbsp		
+		</td>
+	      </tr>
+	    </table>
+
+	    <table class="small unselected perExpQCReplicate" onClick="toggleTabByReplicate('perExpQCReplicate', this, 4) "  onmouseover="Tip('A plate plot of standard deviations between replicates. Abnormal spatial pattern or very high values can indicate problems with one of the replicates.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();"">
+	      <tr>
+		<td class="left">
+		  &nbsp&nbsp
+		</td>
+		<td class="middle">
+                  <span>
+		     Reproducibility
+                  </span>
+		</td>
+		<td class="right">
+		  &nbsp&nbsp		
+		</td>
+	      </tr>
+	    </table>
+
+	    <table class="small unselected perExpQCReplicate" onClick="toggleTabByReplicate('perExpQCReplicate', this, 5) "  onmouseover="Tip('A plate plot of raw or normalized intensities. Plotting the data as arranged on the assay plate helps to identify spatial abnormalities.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();"">
+	      <tr>
+		<td class="left">
+		  &nbsp&nbsp
+		</td>
+		<td class="middle">
+                  <span>
+		     Intensities
+                  </span>
+		</td>
+		<td class="right">
+		  &nbsp&nbsp		
+		</td>
+	      </tr>
+	    </table>
+
+           </td>
+	</tr>
+      </table>
+    </div>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+
+
+                <table class="image  visible perExpQC channel1 replicate1" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Scatterplot between replicates
+                      </div>
+                      <div class="caption">
+	                Spearman rank correlation: 0.32<br>(0 flagged samples)
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="scp_Channel1.png" >
+                        <div class="scatterLegend"><font color="black">sample: 280</font>&nbsp&nbsp&nbsp<font color="#377EB8">neg: 7</font>&nbsp&nbsp&nbsp<font color="#984EA3">other: 14</font>&nbsp&nbsp&nbsp<font color="#FF7F00">empty: 76</font>&nbsp&nbsp&nbsp<font color="#E41A1C">pos: 7</font></div>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('scp_Channel1.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+
+
+                <table class="image  invisible perExpQC channel1 replicate2" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                MA-plot across replicates
+                      </div>
+                      <div class="caption">
+	                
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="map_Channel1.png" >
+                        <div class="scatterLegend"><font color="black">sample: 280</font>&nbsp&nbsp&nbsp<font color="#377EB8">neg: 7</font>&nbsp&nbsp&nbsp<font color="#984EA3">other: 14</font>&nbsp&nbsp&nbsp<font color="#FF7F00">empty: 76</font>&nbsp&nbsp&nbsp<font color="#E41A1C">pos: 7</font></div>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('map_Channel1.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+<table align="center" class="horImg">
+<tr>
+<td>
+
+                <table class="image  invisible perExpQC channel1 replicate3" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Replicate 1
+                      </div>
+                      <div class="caption">
+	                Dynamic range: 1.48
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="hist_Channel1_01.png" >
+                        <div class="scatterLegend"><font color="black">sample: 280</font>&nbsp&nbsp&nbsp<font color="#377EB8">neg: 7</font>&nbsp&nbsp&nbsp<font color="#984EA3">other: 14</font>&nbsp&nbsp&nbsp<font color="#FF7F00">empty: 76</font>&nbsp&nbsp&nbsp<font color="#E41A1C">pos: 7</font></div>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('hist_Channel1_01.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+</td>
+<td>
+
+                <table class="image  invisible perExpQC channel1 replicate3" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Replicate 2
+                      </div>
+                      <div class="caption">
+	                Dynamic range: 1.61
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="hist_Channel1_02.png" >
+                        <div class="scatterLegend"><font color="black">sample: 280</font>&nbsp&nbsp&nbsp<font color="#377EB8">neg: 7</font>&nbsp&nbsp&nbsp<font color="#984EA3">other: 14</font>&nbsp&nbsp&nbsp<font color="#FF7F00">empty: 76</font>&nbsp&nbsp&nbsp<font color="#E41A1C">pos: 7</font></div>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('hist_Channel1_02.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+                <table class="image  invisible perExpQC channel1 replicate4" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Standard deviation across replicates
+                      </div>
+                      <div class="caption">
+	                Repeatability standard deviation: 1.16
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="ppsd_Channel1.png" usemap="#map_ppsd_Channel1.png"><map name="map_ppsd_Channel1.png" id="map_ppsd_Channel1.png">
+<area shape="rect" coords="27,35,41,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,35,56,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="57,35,71,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="72,35,86,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="88,35,101,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="103,35,116,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="118,35,132,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="133,35,147,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="148,35,162,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="163,35,177,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="179,35,192,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="194,35,207,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="209,35,222,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="224,35,238,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="239,35,253,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="254,35,268,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="269,35,283,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="285,35,298,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="300,35,313,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="315,35,329,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="330,35,344,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="345,35,359,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="360,35,374,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="376,35,389,48"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,49,41,62"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,49,56,62"  title="MBD2: sd=0.612" alt = ""/>
+<area shape="rect" coords="57,49,71,62"  title="PCNA: sd=4.98" alt = ""/>
+<area shape="rect" coords="72,49,86,62"  title="KAT7: sd=0.679" alt = ""/>
+<area shape="rect" coords="88,49,101,62"  title="PHF8: sd=0.11" alt = ""/>
+<area shape="rect" coords="103,49,116,62"  title="DNMT3B: sd=0.959" alt = ""/>
+<area shape="rect" coords="118,49,132,62"  title="USP49: sd=1.36" alt = ""/>
+<area shape="rect" coords="133,49,147,62"  title="LEMD2: sd=0.523" alt = ""/>
+<area shape="rect" coords="148,49,162,62"  title="HIST1H1A: sd=0.21" alt = ""/>
+<area shape="rect" coords="163,49,177,62"  title="HMGB2: sd=0.188" alt = ""/>
+<area shape="rect" coords="179,49,192,62"  title="NSD1: sd=0.291" alt = ""/>
+<area shape="rect" coords="194,49,207,62"  title="FAM60A: sd=0.988" alt = ""/>
+<area shape="rect" coords="209,49,222,62"  title="TNRC6A: sd=0.0604" alt = ""/>
+<area shape="rect" coords="224,49,238,62"  title="TDRD5: sd=0.0144" alt = ""/>
+<area shape="rect" coords="239,49,253,62"  title="ERCC6: sd=1.86" alt = ""/>
+<area shape="rect" coords="254,49,268,62"  title="NMNAT1: sd=1.16" alt = ""/>
+<area shape="rect" coords="269,49,283,62"  title="BEND3: sd=0.108" alt = ""/>
+<area shape="rect" coords="285,49,298,62"  title="PCGF1: sd=0.282" alt = ""/>
+<area shape="rect" coords="300,49,313,62"  title="SENP1: sd=0.785" alt = ""/>
+<area shape="rect" coords="315,49,329,62"  title="TAF1A: sd=0.201" alt = ""/>
+<area shape="rect" coords="330,49,344,62"  title="BMI1: sd=0.899" alt = ""/>
+<area shape="rect" coords="345,49,359,62"  title="NA: sd=0.649" alt = ""/>
+<area shape="rect" coords="360,49,374,62"  title="NA: sd=1.16" alt = ""/>
+<area shape="rect" coords="376,49,389,62"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,64,41,77"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,64,56,77"  title="LEO1: sd=0.904" alt = ""/>
+<area shape="rect" coords="57,64,71,77"  title="BRMS1L: sd=0.661" alt = ""/>
+<area shape="rect" coords="72,64,86,77"  title="SMARCC2: sd=0.747" alt = ""/>
+<area shape="rect" coords="88,64,101,77"  title="PARP9: sd=0.647" alt = ""/>
+<area shape="rect" coords="103,64,116,77"  title="TBL1XR1: sd=0.616" alt = ""/>
+<area shape="rect" coords="118,64,132,77"  title="ZNRD1: sd=0.683" alt = ""/>
+<area shape="rect" coords="133,64,147,77"  title="HJURP: sd=0.0336" alt = ""/>
+<area shape="rect" coords="148,64,162,77"  title="NCBP1: sd=0.834" alt = ""/>
+<area shape="rect" coords="163,64,177,77"  title="HNRNPC: sd=0.566" alt = ""/>
+<area shape="rect" coords="179,64,192,77"  title="WDR61: sd=1.5" alt = ""/>
+<area shape="rect" coords="194,64,207,77"  title="ING3: sd=1.13" alt = ""/>
+<area shape="rect" coords="209,64,222,77"  title="UBN1: sd=1.86" alt = ""/>
+<area shape="rect" coords="224,64,238,77"  title="L3MBTL3: sd=1.96" alt = ""/>
+<area shape="rect" coords="239,64,253,77"  title="EXO1: sd=0.388" alt = ""/>
+<area shape="rect" coords="254,64,268,77"  title="SF3B1: sd=3.57" alt = ""/>
+<area shape="rect" coords="269,64,283,77"  title="KDM3B: sd=1.38" alt = ""/>
+<area shape="rect" coords="285,64,298,77"  title="DNMT3A: sd=0.985" alt = ""/>
+<area shape="rect" coords="300,64,313,77"  title="WDR82: sd=0.782" alt = ""/>
+<area shape="rect" coords="315,64,329,77"  title="SEH1L: sd=0.277" alt = ""/>
+<area shape="rect" coords="330,64,344,77"  title="XPO5: sd=0.275" alt = ""/>
+<area shape="rect" coords="345,64,359,77"  title="NA: sd=4.44" alt = ""/>
+<area shape="rect" coords="360,64,374,77"  title="NA: sd=0.353" alt = ""/>
+<area shape="rect" coords="376,64,389,77"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,79,41,92"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,79,56,92"  title="APOBEC1: sd=0.0923" alt = ""/>
+<area shape="rect" coords="57,79,71,92"  title="ANP32B: sd=0.251" alt = ""/>
+<area shape="rect" coords="72,79,86,92"  title="CENPA: sd=0.752" alt = ""/>
+<area shape="rect" coords="88,79,101,92"  title="BRD2: sd=1.18" alt = ""/>
+<area shape="rect" coords="103,79,116,92"  title="KMT5B: sd=0.535" alt = ""/>
+<area shape="rect" coords="118,79,132,92"  title="TMPO: sd=1.31" alt = ""/>
+<area shape="rect" coords="133,79,147,92"  title="LRWD1: sd=0.838" alt = ""/>
+<area shape="rect" coords="148,79,162,92"  title="SMYD2: sd=0.372" alt = ""/>
+<area shape="rect" coords="163,79,177,92"  title="SMYD3: sd=0.621" alt = ""/>
+<area shape="rect" coords="179,79,192,92"  title="HIST1H2AL: sd=1.91" alt = ""/>
+<area shape="rect" coords="194,79,207,92"  title="TSPY3: sd=0.224" alt = ""/>
+<area shape="rect" coords="209,79,222,92"  title="TDRD3: sd=0.0568" alt = ""/>
+<area shape="rect" coords="224,79,238,92"  title="NUP214: sd=1.4" alt = ""/>
+<area shape="rect" coords="239,79,253,92"  title="TNRC18: sd=0.498" alt = ""/>
+<area shape="rect" coords="254,79,268,92"  title="SAP18: sd=1.1" alt = ""/>
+<area shape="rect" coords="269,79,283,92"  title="DND1: sd=0.359" alt = ""/>
+<area shape="rect" coords="285,79,298,92"  title="L3MBTL4: sd=0.192" alt = ""/>
+<area shape="rect" coords="300,79,313,92"  title="NEIL2: sd=0.548" alt = ""/>
+<area shape="rect" coords="315,79,329,92"  title="PARP15: sd=0.038" alt = ""/>
+<area shape="rect" coords="330,79,344,92"  title="KDM4C: sd=0.92" alt = ""/>
+<area shape="rect" coords="345,79,359,92"  title="NA: sd=1.18" alt = ""/>
+<area shape="rect" coords="360,79,374,92"  title="NA: sd=0.141" alt = ""/>
+<area shape="rect" coords="376,79,389,92"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,93,41,107"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,93,56,107"  title="ERCC3: sd=0.773" alt = ""/>
+<area shape="rect" coords="57,93,71,107"  title="APOBEC3H: sd=0.146" alt = ""/>
+<area shape="rect" coords="72,93,86,107"  title="MBD4: sd=1.12" alt = ""/>
+<area shape="rect" coords="88,93,101,107"  title="HMG20B: sd=0.405" alt = ""/>
+<area shape="rect" coords="103,93,116,107"  title="SETDB2: sd=0.4" alt = ""/>
+<area shape="rect" coords="118,93,132,107"  title="HIST1H3I: sd=0.0903" alt = ""/>
+<area shape="rect" coords="133,93,147,107"  title="RBBP5: sd=1.03" alt = ""/>
+<area shape="rect" coords="148,93,162,107"  title="DYDC1: sd=0.34" alt = ""/>
+<area shape="rect" coords="163,93,177,107"  title="SUMO1: sd=1.68" alt = ""/>
+<area shape="rect" coords="179,93,192,107"  title="ALKBH3: sd=0.226" alt = ""/>
+<area shape="rect" coords="194,93,207,107"  title="KAT5: sd=1.77" alt = ""/>
+<area shape="rect" coords="209,93,222,107"  title="H2AFZ: sd=1.87" alt = ""/>
+<area shape="rect" coords="224,93,238,107"  title="UBE2I: sd=0.0164" alt = ""/>
+<area shape="rect" coords="239,93,253,107"  title="ZFP36: sd=1.06" alt = ""/>
+<area shape="rect" coords="254,93,268,107"  title="NFKB1: sd=0.677" alt = ""/>
+<area shape="rect" coords="269,93,283,107"  title="PRMT7: sd=0.799" alt = ""/>
+<area shape="rect" coords="285,93,298,107"  title="SUPT5H: sd=0.991" alt = ""/>
+<area shape="rect" coords="300,93,313,107"  title="HDAC3: sd=0.525" alt = ""/>
+<area shape="rect" coords="315,93,329,107"  title="JMJD6: sd=0.614" alt = ""/>
+<area shape="rect" coords="330,93,344,107"  title="H2AFB1: sd=0.0608" alt = ""/>
+<area shape="rect" coords="345,93,359,107"  title="NA: sd=9.16" alt = ""/>
+<area shape="rect" coords="360,93,374,107"  title="NA: sd=2.19" alt = ""/>
+<area shape="rect" coords="376,93,389,107"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,108,41,121"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,108,56,121"  title="CCNH: sd=0.491" alt = ""/>
+<area shape="rect" coords="57,108,71,121"  title="ARID1A: sd=1.75" alt = ""/>
+<area shape="rect" coords="72,108,86,121"  title="ESCO2: sd=1.19" alt = ""/>
+<area shape="rect" coords="88,108,101,121"  title="SATB1: sd=0.509" alt = ""/>
+<area shape="rect" coords="103,108,116,121"  title="MECP2: sd=0.542" alt = ""/>
+<area shape="rect" coords="118,108,132,121"  title="ATAD2: sd=1.46" alt = ""/>
+<area shape="rect" coords="133,108,147,121"  title="CHAF1A: sd=2.37" alt = ""/>
+<area shape="rect" coords="148,108,162,121"  title="NKAP: sd=1.16" alt = ""/>
+<area shape="rect" coords="163,108,177,121"  title="POLR2L: sd=0.244" alt = ""/>
+<area shape="rect" coords="179,108,192,121"  title="MYBBP1A: sd=2.09" alt = ""/>
+<area shape="rect" coords="194,108,207,121"  title="HNRNPA2B1: sd=0.0114" alt = ""/>
+<area shape="rect" coords="209,108,222,121"  title="POGZ: sd=0.92" alt = ""/>
+<area shape="rect" coords="224,108,238,121"  title="SAFB: sd=0.455" alt = ""/>
+<area shape="rect" coords="239,108,253,121"  title="RTF1: sd=0.34" alt = ""/>
+<area shape="rect" coords="254,108,268,121"  title="APOBEC3G: sd=2.3" alt = ""/>
+<area shape="rect" coords="269,108,283,121"  title="POLE3: sd=1.29" alt = ""/>
+<area shape="rect" coords="285,108,298,121"  title="OGG1: sd=1.18" alt = ""/>
+<area shape="rect" coords="300,108,313,121"  title="TIPARP: sd=0.923" alt = ""/>
+<area shape="rect" coords="315,108,329,121"  title="CNOT7: sd=1.37" alt = ""/>
+<area shape="rect" coords="330,108,344,121"  title="KAT2B: sd=0.277" alt = ""/>
+<area shape="rect" coords="345,108,359,121"  title="NA: sd=0.316" alt = ""/>
+<area shape="rect" coords="360,108,374,121"  title="NA: sd=1.33" alt = ""/>
+<area shape="rect" coords="376,108,389,121"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,123,41,136"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,123,56,136"  title="RNF2: sd=0.403" alt = ""/>
+<area shape="rect" coords="57,123,71,136"  title="PHF20: sd=0.0198" alt = ""/>
+<area shape="rect" coords="72,123,86,136"  title="APOBEC3F: sd=0.704" alt = ""/>
+<area shape="rect" coords="88,123,101,136"  title="SUMO3: sd=0.526" alt = ""/>
+<area shape="rect" coords="103,123,116,136"  title="PHF1: sd=0.58" alt = ""/>
+<area shape="rect" coords="118,123,132,136"  title="AHCTF1: sd=0.215" alt = ""/>
+<area shape="rect" coords="133,123,147,136"  title="HDAC1: sd=0.304" alt = ""/>
+<area shape="rect" coords="148,123,162,136"  title="RBBP7: sd=0.969" alt = ""/>
+<area shape="rect" coords="163,123,177,136"  title="HDAC11: sd=1.28" alt = ""/>
+<area shape="rect" coords="179,123,192,136"  title="KMT2A: sd=1.64" alt = ""/>
+<area shape="rect" coords="194,123,207,136"  title="CHD7: sd=1.01" alt = ""/>
+<area shape="rect" coords="209,123,222,136"  title="SETD3: sd=0.513" alt = ""/>
+<area shape="rect" coords="224,123,238,136"  title="KCNQ1: sd=1.13" alt = ""/>
+<area shape="rect" coords="239,123,253,136"  title="SPOUT1: sd=0.592" alt = ""/>
+<area shape="rect" coords="254,123,268,136"  title="TIMELESS: sd=1.27" alt = ""/>
+<area shape="rect" coords="269,123,283,136"  title="MED25: sd=0.876" alt = ""/>
+<area shape="rect" coords="285,123,298,136"  title="RANBP2: sd=0.0172" alt = ""/>
+<area shape="rect" coords="300,123,313,136"  title="WAC: sd=0.406" alt = ""/>
+<area shape="rect" coords="315,123,329,136"  title="PKN1: sd=0.316" alt = ""/>
+<area shape="rect" coords="330,123,344,136"  title="SETMAR: sd=0.0719" alt = ""/>
+<area shape="rect" coords="345,123,359,136"  title="NA: sd=1.05" alt = ""/>
+<area shape="rect" coords="360,123,374,136"  title="NA: sd=1.68" alt = ""/>
+<area shape="rect" coords="376,123,389,136"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,137,41,151"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,137,56,151"  title="HDAC9: sd=0.782" alt = ""/>
+<area shape="rect" coords="57,137,71,151"  title="HIST1H1D: sd=0.977" alt = ""/>
+<area shape="rect" coords="72,137,86,151"  title="RUVBL1: sd=0.0229" alt = ""/>
+<area shape="rect" coords="88,137,101,151"  title="BCDIN3D: sd=0.838" alt = ""/>
+<area shape="rect" coords="103,137,116,151"  title="NUP210: sd=0.624" alt = ""/>
+<area shape="rect" coords="118,137,132,151"  title="BRCA1: sd=0.84" alt = ""/>
+<area shape="rect" coords="133,137,147,151"  title="TSPY4: sd=0.837" alt = ""/>
+<area shape="rect" coords="148,137,162,151"  title="SUZ12: sd=0.0206" alt = ""/>
+<area shape="rect" coords="163,137,177,151"  title="POLR2B: sd=1.07" alt = ""/>
+<area shape="rect" coords="179,137,192,151"  title="SIRT6: sd=0.15" alt = ""/>
+<area shape="rect" coords="194,137,207,151"  title="CDC73: sd=1.59" alt = ""/>
+<area shape="rect" coords="209,137,222,151"  title="CENPI: sd=1.35" alt = ""/>
+<area shape="rect" coords="224,137,238,151"  title="PPP1R10: sd=0.99" alt = ""/>
+<area shape="rect" coords="239,137,253,151"  title="H2BFWT: sd=0.271" alt = ""/>
+<area shape="rect" coords="254,137,268,151"  title="DHX9: sd=0.662" alt = ""/>
+<area shape="rect" coords="269,137,283,151"  title="PHC1: sd=0.454" alt = ""/>
+<area shape="rect" coords="285,137,298,151"  title="PCGF2: sd=1.58" alt = ""/>
+<area shape="rect" coords="300,137,313,151"  title="SNIP1: sd=0.762" alt = ""/>
+<area shape="rect" coords="315,137,329,151"  title="DNMT3L: sd=0.893" alt = ""/>
+<area shape="rect" coords="330,137,344,151"  title="MBD1: sd=0.315" alt = ""/>
+<area shape="rect" coords="345,137,359,151"  title="NA: sd=0.0143" alt = ""/>
+<area shape="rect" coords="360,137,374,151"  title="NA: sd=0.917" alt = ""/>
+<area shape="rect" coords="376,137,389,151"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,152,41,165"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,152,56,165"  title="CBX6: sd=0.212" alt = ""/>
+<area shape="rect" coords="57,152,71,165"  title="TFAP2C: sd=1.18" alt = ""/>
+<area shape="rect" coords="72,152,86,165"  title="NEIL1: sd=0.00594" alt = ""/>
+<area shape="rect" coords="88,152,101,165"  title="HIST1H4F: sd=0.382" alt = ""/>
+<area shape="rect" coords="103,152,116,165"  title="TBL1X: sd=1.35" alt = ""/>
+<area shape="rect" coords="118,152,132,165"  title="HIST1H1E: sd=2.59" alt = ""/>
+<area shape="rect" coords="133,152,147,165"  title="AURKB: sd=0.707" alt = ""/>
+<area shape="rect" coords="148,152,162,165"  title="TNRC6B: sd=0.0421" alt = ""/>
+<area shape="rect" coords="163,152,177,165"  title="POLQ: sd=1.2" alt = ""/>
+<area shape="rect" coords="179,152,192,165"  title="NUP133: sd=0.191" alt = ""/>
+<area shape="rect" coords="194,152,207,165"  title="RBBP4: sd=0.0358" alt = ""/>
+<area shape="rect" coords="209,152,222,165"  title="CDCA5: sd=0.254" alt = ""/>
+<area shape="rect" coords="224,152,238,165"  title="MBD3L1: sd=0.108" alt = ""/>
+<area shape="rect" coords="239,152,253,165"  title="VRK1: sd=0.145" alt = ""/>
+<area shape="rect" coords="254,152,268,165"  title="MBD3L5: sd=1.4" alt = ""/>
+<area shape="rect" coords="269,152,283,165"  title="TSPY8: sd=0.184" alt = ""/>
+<area shape="rect" coords="285,152,298,165"  title="CHAF1B: sd=1.41" alt = ""/>
+<area shape="rect" coords="300,152,313,165"  title="CENPP: sd=1.21" alt = ""/>
+<area shape="rect" coords="315,152,329,165"  title="EIF1: sd=2.52" alt = ""/>
+<area shape="rect" coords="330,152,344,165"  title="CENPC: sd=4.18" alt = ""/>
+<area shape="rect" coords="345,152,359,165"  title="NA: sd=5.68" alt = ""/>
+<area shape="rect" coords="360,152,374,165"  title="NA: sd=1.22" alt = ""/>
+<area shape="rect" coords="376,152,389,165"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,167,41,180"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,167,56,180"  title="UTY: sd=0.828" alt = ""/>
+<area shape="rect" coords="57,167,71,180"  title="AGO3: sd=1.15" alt = ""/>
+<area shape="rect" coords="72,167,86,180"  title="CREBBP: sd=1.77" alt = ""/>
+<area shape="rect" coords="88,167,101,180"  title="NCOA5: sd=0.0256" alt = ""/>
+<area shape="rect" coords="103,167,116,180"  title="HMGA2: sd=0.589" alt = ""/>
+<area shape="rect" coords="118,167,132,180"  title="SWI5: sd=2.57" alt = ""/>
+<area shape="rect" coords="133,167,147,180"  title="USP51: sd=0.0236" alt = ""/>
+<area shape="rect" coords="148,167,162,180"  title="HIST1H2AG: sd=1.04" alt = ""/>
+<area shape="rect" coords="163,167,177,180"  title="DROSHA: sd=0.521" alt = ""/>
+<area shape="rect" coords="179,167,192,180"  title="NCOA2: sd=2.23" alt = ""/>
+<area shape="rect" coords="194,167,207,180"  title="HIST1H4H: sd=1.04" alt = ""/>
+<area shape="rect" coords="209,167,222,180"  title="SMAD3: sd=1.04" alt = ""/>
+<area shape="rect" coords="224,167,238,180"  title="H2AFB3: sd=0.735" alt = ""/>
+<area shape="rect" coords="239,167,253,180"  title="CHD8: sd=0.931" alt = ""/>
+<area shape="rect" coords="254,167,268,180"  title="MEN1: sd=0.725" alt = ""/>
+<area shape="rect" coords="269,167,283,180"  title="PIWIL2: sd=0.0241" alt = ""/>
+<area shape="rect" coords="285,167,298,180"  title="CDYL: sd=0.462" alt = ""/>
+<area shape="rect" coords="300,167,313,180"  title="USP22: sd=0.675" alt = ""/>
+<area shape="rect" coords="315,167,329,180"  title="NUP188: sd=0.464" alt = ""/>
+<area shape="rect" coords="330,167,344,180"  title="DNMT1: sd=1.25" alt = ""/>
+<area shape="rect" coords="345,167,359,180"  title="NA: sd=0.491" alt = ""/>
+<area shape="rect" coords="360,167,374,180"  title="NA: sd=1.14" alt = ""/>
+<area shape="rect" coords="376,167,389,180"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,182,41,195"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,182,56,195"  title="SETD6: sd=0.319" alt = ""/>
+<area shape="rect" coords="57,182,71,195"  title="HIST2H2AB: sd=1.39" alt = ""/>
+<area shape="rect" coords="72,182,86,195"  title="TTF1: sd=0.245" alt = ""/>
+<area shape="rect" coords="88,182,101,195"  title="KDM4B: sd=1.09" alt = ""/>
+<area shape="rect" coords="103,182,116,195"  title="HIST3H2A: sd=0.0716" alt = ""/>
+<area shape="rect" coords="118,182,132,195"  title="BRMS1: sd=0.978" alt = ""/>
+<area shape="rect" coords="133,182,147,195"  title="AUTS2: sd=0.0841" alt = ""/>
+<area shape="rect" coords="148,182,162,195"  title="MTRR: sd=1.32" alt = ""/>
+<area shape="rect" coords="163,182,177,195"  title="CBX2: sd=1.54" alt = ""/>
+<area shape="rect" coords="179,182,192,195"  title="NUP35: sd=0.039" alt = ""/>
+<area shape="rect" coords="194,182,207,195"  title="RNF20: sd=1.35" alt = ""/>
+<area shape="rect" coords="209,182,222,195"  title="ELP4: sd=0.554" alt = ""/>
+<area shape="rect" coords="224,182,238,195"  title="PPP3CA: sd=0.115" alt = ""/>
+<area shape="rect" coords="239,182,253,195"  title="RCC1: sd=0.269" alt = ""/>
+<area shape="rect" coords="254,182,268,195"  title="KANSL1: sd=0.0264" alt = ""/>
+<area shape="rect" coords="269,182,283,195"  title="MLH1: sd=0.346" alt = ""/>
+<area shape="rect" coords="285,182,298,195"  title="HIST1H2AD: sd=0.509" alt = ""/>
+<area shape="rect" coords="300,182,313,195"  title="PLK1: sd=0.0624" alt = ""/>
+<area shape="rect" coords="315,182,329,195"  title="DNTTIP1: sd=0.0947" alt = ""/>
+<area shape="rect" coords="330,182,344,195"  title="SPTY2D1: sd=0.626" alt = ""/>
+<area shape="rect" coords="345,182,359,195"  title="NA: sd=5.05" alt = ""/>
+<area shape="rect" coords="360,182,374,195"  title="NA: sd=3.01" alt = ""/>
+<area shape="rect" coords="376,182,389,195"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,196,41,210"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,196,56,210"  title="POLR2G: sd=0.397" alt = ""/>
+<area shape="rect" coords="57,196,71,210"  title="STAT3: sd=0.0455" alt = ""/>
+<area shape="rect" coords="72,196,86,210"  title="UPF1: sd=0.161" alt = ""/>
+<area shape="rect" coords="88,196,101,210"  title="SUPT6H: sd=1.62" alt = ""/>
+<area shape="rect" coords="103,196,116,210"  title="PRMT1: sd=0.362" alt = ""/>
+<area shape="rect" coords="118,196,132,210"  title="TSPYL4: sd=0.598" alt = ""/>
+<area shape="rect" coords="133,196,147,210"  title="MEIOB: sd=0.982" alt = ""/>
+<area shape="rect" coords="148,196,162,210"  title="PRMT6: sd=0.198" alt = ""/>
+<area shape="rect" coords="163,196,177,210"  title="SIN3A: sd=1.07" alt = ""/>
+<area shape="rect" coords="179,196,192,210"  title="ZC3H10: sd=1.02" alt = ""/>
+<area shape="rect" coords="194,196,207,210"  title="TSPYL5: sd=0.0312" alt = ""/>
+<area shape="rect" coords="209,196,222,210"  title="NSD3: sd=1.54" alt = ""/>
+<area shape="rect" coords="224,196,238,210"  title="POLR2A: sd=1.37" alt = ""/>
+<area shape="rect" coords="239,196,253,210"  title="HIST2H2AC: sd=0.486" alt = ""/>
+<area shape="rect" coords="254,196,268,210"  title="KDM6A: sd=0.394" alt = ""/>
+<area shape="rect" coords="269,196,283,210"  title="TTC5: sd=1.44" alt = ""/>
+<area shape="rect" coords="285,196,298,210"  title="EPC2: sd=0.627" alt = ""/>
+<area shape="rect" coords="300,196,313,210"  title="HIST1H3J: sd=0.478" alt = ""/>
+<area shape="rect" coords="315,196,329,210"  title="RAG2: sd=0.956" alt = ""/>
+<area shape="rect" coords="330,196,344,210"  title="KDM5C: sd=1.22" alt = ""/>
+<area shape="rect" coords="345,196,359,210"  title="NA: sd=1.84" alt = ""/>
+<area shape="rect" coords="360,196,374,210"  title="NA: sd=1.44" alt = ""/>
+<area shape="rect" coords="376,196,389,210"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,211,41,224"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,211,56,224"  title="ARID4A: sd=1.66" alt = ""/>
+<area shape="rect" coords="57,211,71,224"  title="TET1: sd=0.636" alt = ""/>
+<area shape="rect" coords="72,211,86,224"  title="TFPT: sd=0.149" alt = ""/>
+<area shape="rect" coords="88,211,101,224"  title="RIF1: sd=1.11" alt = ""/>
+<area shape="rect" coords="103,211,116,224"  title="ASF1A: sd=0.387" alt = ""/>
+<area shape="rect" coords="118,211,132,224"  title="H2AFB2: sd=0.387" alt = ""/>
+<area shape="rect" coords="133,211,147,224"  title="HIC1: sd=0.338" alt = ""/>
+<area shape="rect" coords="148,211,162,224"  title="ATRX: sd=0.139" alt = ""/>
+<area shape="rect" coords="163,211,177,224"  title="HIRA: sd=1.11" alt = ""/>
+<area shape="rect" coords="179,211,192,224"  title="HDAC7: sd=0.773" alt = ""/>
+<area shape="rect" coords="194,211,207,224"  title="ZNF304: sd=1.38" alt = ""/>
+<area shape="rect" coords="209,211,222,224"  title="CENPW: sd=1.13" alt = ""/>
+<area shape="rect" coords="224,211,238,224"  title="HP1BP3: sd=0.8" alt = ""/>
+<area shape="rect" coords="239,211,253,224"  title="CENPB: sd=0.547" alt = ""/>
+<area shape="rect" coords="254,211,268,224"  title="KDM2B: sd=0.215" alt = ""/>
+<area shape="rect" coords="269,211,283,224"  title="RUVBL2: sd=0.343" alt = ""/>
+<area shape="rect" coords="285,211,298,224"  title="ASH2L: sd=0.822" alt = ""/>
+<area shape="rect" coords="300,211,313,224"  title="LIN28A: sd=1.47" alt = ""/>
+<area shape="rect" coords="315,211,329,224"  title="CENPN: sd=0.882" alt = ""/>
+<area shape="rect" coords="330,211,344,224"  title="TDRD1: sd=0.0057" alt = ""/>
+<area shape="rect" coords="345,211,359,224"  title="NA: sd=10" alt = ""/>
+<area shape="rect" coords="360,211,374,224"  title="NA: sd=0.946" alt = ""/>
+<area shape="rect" coords="376,211,389,224"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,226,41,239"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,226,56,239"  title="TSPYL2: sd=7.12" alt = ""/>
+<area shape="rect" coords="57,226,71,239"  title="TRIM27: sd=1.06" alt = ""/>
+<area shape="rect" coords="72,226,86,239"  title="ACTB: sd=0.159" alt = ""/>
+<area shape="rect" coords="88,226,101,239"  title="HIST1H3B: sd=1.68" alt = ""/>
+<area shape="rect" coords="103,226,116,239"  title="METTL3: sd=1.15" alt = ""/>
+<area shape="rect" coords="118,226,132,239"  title="UBR2: sd=1.05" alt = ""/>
+<area shape="rect" coords="133,226,147,239"  title="CD3EAP: sd=2.66" alt = ""/>
+<area shape="rect" coords="148,226,162,239"  title="HDAC10: sd=0.242" alt = ""/>
+<area shape="rect" coords="163,226,177,239"  title="BABAM1: sd=0.0563" alt = ""/>
+<area shape="rect" coords="179,226,192,239"  title="PRDM7: sd=1.62" alt = ""/>
+<area shape="rect" coords="194,226,207,239"  title="PARP1: sd=0.437" alt = ""/>
+<area shape="rect" coords="209,226,222,239"  title="TGFB1: sd=1.56" alt = ""/>
+<area shape="rect" coords="224,226,238,239"  title="PLK2: sd=0.447" alt = ""/>
+<area shape="rect" coords="239,226,253,239"  title="NTHL1: sd=0.858" alt = ""/>
+<area shape="rect" coords="254,226,268,239"  title="FAM111A: sd=0.525" alt = ""/>
+<area shape="rect" coords="269,226,283,239"  title="SMARCAD1: sd=0.412" alt = ""/>
+<area shape="rect" coords="285,226,298,239"  title="APOBEC3A: sd=0.983" alt = ""/>
+<area shape="rect" coords="300,226,313,239"  title="POLD1: sd=0.0229" alt = ""/>
+<area shape="rect" coords="315,226,329,239"  title="POLR2H: sd=4.67" alt = ""/>
+<area shape="rect" coords="330,226,344,239"  title="EMD: sd=0.694" alt = ""/>
+<area shape="rect" coords="345,226,359,239"  title="NA: sd=2.27" alt = ""/>
+<area shape="rect" coords="360,226,374,239"  title="NA: sd=2.17" alt = ""/>
+<area shape="rect" coords="376,226,389,239"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,240,41,254"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,240,56,254"  title="CHD3: sd=0.635" alt = ""/>
+<area shape="rect" coords="57,240,71,254"  title="MNAT1: sd=1.11" alt = ""/>
+<area shape="rect" coords="72,240,86,254"  title="SIRT4: sd=0.105" alt = ""/>
+<area shape="rect" coords="88,240,101,254"  title="PARP12: sd=0.848" alt = ""/>
+<area shape="rect" coords="103,240,116,254"  title="UHRF1: sd=0.147" alt = ""/>
+<area shape="rect" coords="118,240,132,254"  title="MBD3L2: sd=0.421" alt = ""/>
+<area shape="rect" coords="133,240,147,254"  title="HIST1H2AA: sd=0.769" alt = ""/>
+<area shape="rect" coords="148,240,162,254"  title="M1AP: sd=0.793" alt = ""/>
+<area shape="rect" coords="163,240,177,254"  title="ARID1B: sd=1.65" alt = ""/>
+<area shape="rect" coords="179,240,192,254"  title="NUP160: sd=1.52" alt = ""/>
+<area shape="rect" coords="194,240,207,254"  title="RNF4: sd=0.303" alt = ""/>
+<area shape="rect" coords="209,240,222,254"  title="NUP85: sd=0.927" alt = ""/>
+<area shape="rect" coords="224,240,238,254"  title="MIER1: sd=0.65" alt = ""/>
+<area shape="rect" coords="239,240,253,254"  title="MORF4L1: sd=1" alt = ""/>
+<area shape="rect" coords="254,240,268,254"  title="KDM5D: sd=0.282" alt = ""/>
+<area shape="rect" coords="269,240,283,254"  title="ASZ1: sd=0.87" alt = ""/>
+<area shape="rect" coords="285,240,298,254"  title="CHD5: sd=1.75" alt = ""/>
+<area shape="rect" coords="300,240,313,254"  title="ALKBH2: sd=0.0583" alt = ""/>
+<area shape="rect" coords="315,240,329,254"  title="CHD6: sd=0.134" alt = ""/>
+<area shape="rect" coords="330,240,344,254"  title="RRP8: sd=0.7" alt = ""/>
+<area shape="rect" coords="345,240,359,254"  title="NA: sd=2.26" alt = ""/>
+<area shape="rect" coords="360,240,374,254"  title="NA: sd=0.472" alt = ""/>
+<area shape="rect" coords="376,240,389,254"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="27,255,41,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="42,255,56,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="57,255,71,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="72,255,86,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="88,255,101,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="103,255,116,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="118,255,132,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="133,255,147,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="148,255,162,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="163,255,177,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="179,255,192,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="194,255,207,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="209,255,222,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="224,255,238,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="239,255,253,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="254,255,268,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="269,255,283,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="285,255,298,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="300,255,313,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="315,255,329,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="330,255,344,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="345,255,359,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="360,255,374,268"  title="NA: sd=NA" alt = ""/>
+<area shape="rect" coords="376,255,389,268"  title="NA: sd=NA" alt = ""/>
+</map>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('ppmean_Channel1.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+<table align="center" class="horImg">
+<tr>
+<td>
+
+                <table class="image  invisible perExpQC channel1 replicate5" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Replicate  1
+                      </div>
+                      <div class="caption">
+	                
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="pp_Channel1_1.png" usemap="#map_pp_Channel1_1.png"><map name="map_pp_Channel1_1.png" id="map_pp_Channel1_1.png">
+<area shape="rect" coords="22,28,33,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,28,45,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="47,28,58,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="59,28,70,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="71,28,82,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="83,28,95,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="96,28,107,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="108,28,119,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="120,28,132,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="133,28,144,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="145,28,156,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="157,28,168,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="170,28,181,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="182,28,193,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="194,28,205,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="207,28,218,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="219,28,230,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="231,28,242,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="244,28,255,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="256,28,267,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="268,28,279,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="280,28,292,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="293,28,304,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="305,28,316,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,40,33,51"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,40,45,51"  title="MBD2: value=-0.023" alt = ""/>
+<area shape="rect" coords="47,40,58,51"  title="PCNA: value=13.751" alt = ""/>
+<area shape="rect" coords="59,40,70,51"  title="KAT7: value=0.971" alt = ""/>
+<area shape="rect" coords="71,40,82,51"  title="PHF8: value=-0.331" alt = ""/>
+<area shape="rect" coords="83,40,95,51"  title="DNMT3B: value=0.577" alt = ""/>
+<area shape="rect" coords="96,40,107,51"  title="USP49: value=1.262" alt = ""/>
+<area shape="rect" coords="108,40,119,51"  title="LEMD2: value=-0.714" alt = ""/>
+<area shape="rect" coords="120,40,132,51"  title="HIST1H1A: value=0.523" alt = ""/>
+<area shape="rect" coords="133,40,144,51"  title="HMGB2: value=-0.676" alt = ""/>
+<area shape="rect" coords="145,40,156,51"  title="NSD1: value=0.183" alt = ""/>
+<area shape="rect" coords="157,40,168,51"  title="FAM60A: value=0.059" alt = ""/>
+<area shape="rect" coords="170,40,181,51"  title="TNRC6A: value=-0.077" alt = ""/>
+<area shape="rect" coords="182,40,193,51"  title="TDRD5: value=0.016" alt = ""/>
+<area shape="rect" coords="194,40,205,51"  title="ERCC6: value=-0.942" alt = ""/>
+<area shape="rect" coords="207,40,218,51"  title="NMNAT1: value=1.546" alt = ""/>
+<area shape="rect" coords="219,40,230,51"  title="BEND3: value=-1.281" alt = ""/>
+<area shape="rect" coords="231,40,242,51"  title="PCGF1: value=0.472" alt = ""/>
+<area shape="rect" coords="244,40,255,51"  title="SENP1: value=-1.074" alt = ""/>
+<area shape="rect" coords="256,40,267,51"  title="TAF1A: value=-0.357" alt = ""/>
+<area shape="rect" coords="268,40,279,51"  title="BMI1: value=-0.092" alt = ""/>
+<area shape="rect" coords="280,40,292,51"  title="NA: value=0.451" alt = ""/>
+<area shape="rect" coords="293,40,304,51"  title="NA: value=0.739" alt = ""/>
+<area shape="rect" coords="305,40,316,51"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,52,33,63"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,52,45,63"  title="LEO1: value=0.491" alt = ""/>
+<area shape="rect" coords="47,52,58,63"  title="BRMS1L: value=0.903" alt = ""/>
+<area shape="rect" coords="59,52,70,63"  title="SMARCC2: value=-0.515" alt = ""/>
+<area shape="rect" coords="71,52,82,63"  title="PARP9: value=-1.463" alt = ""/>
+<area shape="rect" coords="83,52,95,63"  title="TBL1XR1: value=-1.361" alt = ""/>
+<area shape="rect" coords="96,52,107,63"  title="ZNRD1: value=1.113" alt = ""/>
+<area shape="rect" coords="108,52,119,63"  title="HJURP: value=-0.073" alt = ""/>
+<area shape="rect" coords="120,52,132,63"  title="NCBP1: value=-2.058" alt = ""/>
+<area shape="rect" coords="133,52,144,63"  title="HNRNPC: value=0.718" alt = ""/>
+<area shape="rect" coords="145,52,156,63"  title="WDR61: value=1.75" alt = ""/>
+<area shape="rect" coords="157,52,168,63"  title="ING3: value=-0.556" alt = ""/>
+<area shape="rect" coords="170,52,181,63"  title="UBN1: value=-0.897" alt = ""/>
+<area shape="rect" coords="182,52,193,63"  title="L3MBTL3: value=-1.64" alt = ""/>
+<area shape="rect" coords="194,52,205,63"  title="EXO1: value=0.564" alt = ""/>
+<area shape="rect" coords="207,52,218,63"  title="SF3B1: value=5.015" alt = ""/>
+<area shape="rect" coords="219,52,230,63"  title="KDM3B: value=-1.354" alt = ""/>
+<area shape="rect" coords="231,52,242,63"  title="DNMT3A: value=2.298" alt = ""/>
+<area shape="rect" coords="244,52,255,63"  title="WDR82: value=0.064" alt = ""/>
+<area shape="rect" coords="256,52,267,63"  title="SEH1L: value=0.293" alt = ""/>
+<area shape="rect" coords="268,52,279,63"  title="XPO5: value=-0.572" alt = ""/>
+<area shape="rect" coords="280,52,292,63"  title="NA: value=8.991" alt = ""/>
+<area shape="rect" coords="293,52,304,63"  title="NA: value=2.697" alt = ""/>
+<area shape="rect" coords="305,52,316,63"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,64,33,75"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,64,45,75"  title="APOBEC1: value=0.099" alt = ""/>
+<area shape="rect" coords="47,64,58,75"  title="ANP32B: value=0.415" alt = ""/>
+<area shape="rect" coords="59,64,70,75"  title="CENPA: value=0.16" alt = ""/>
+<area shape="rect" coords="71,64,82,75"  title="BRD2: value=-4.279" alt = ""/>
+<area shape="rect" coords="83,64,95,75"  title="KMT5B: value=1.745" alt = ""/>
+<area shape="rect" coords="96,64,107,75"  title="TMPO: value=-0.092" alt = ""/>
+<area shape="rect" coords="108,64,119,75"  title="LRWD1: value=0.916" alt = ""/>
+<area shape="rect" coords="120,64,132,75"  title="SMYD2: value=-0.195" alt = ""/>
+<area shape="rect" coords="133,64,144,75"  title="SMYD3: value=0.405" alt = ""/>
+<area shape="rect" coords="145,64,156,75"  title="HIST1H2AL: value=3.788" alt = ""/>
+<area shape="rect" coords="157,64,168,75"  title="TSPY3: value=-0.953" alt = ""/>
+<area shape="rect" coords="170,64,181,75"  title="TDRD3: value=0.845" alt = ""/>
+<area shape="rect" coords="182,64,193,75"  title="NUP214: value=-0.08" alt = ""/>
+<area shape="rect" coords="194,64,205,75"  title="TNRC18: value=-0.564" alt = ""/>
+<area shape="rect" coords="207,64,218,75"  title="SAP18: value=-1.53" alt = ""/>
+<area shape="rect" coords="219,64,230,75"  title="DND1: value=-0.651" alt = ""/>
+<area shape="rect" coords="231,64,242,75"  title="L3MBTL4: value=-0.672" alt = ""/>
+<area shape="rect" coords="244,64,255,75"  title="NEIL2: value=0.079" alt = ""/>
+<area shape="rect" coords="256,64,267,75"  title="PARP15: value=1.763" alt = ""/>
+<area shape="rect" coords="268,64,279,75"  title="KDM4C: value=-0.673" alt = ""/>
+<area shape="rect" coords="280,64,292,75"  title="NA: value=2.132" alt = ""/>
+<area shape="rect" coords="293,64,304,75"  title="NA: value=0.097" alt = ""/>
+<area shape="rect" coords="305,64,316,75"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,76,33,87"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,76,45,87"  title="ERCC3: value=-0.445" alt = ""/>
+<area shape="rect" coords="47,76,58,87"  title="APOBEC3H: value=0.238" alt = ""/>
+<area shape="rect" coords="59,76,70,87"  title="MBD4: value=0.838" alt = ""/>
+<area shape="rect" coords="71,76,82,87"  title="HMG20B: value=-0.729" alt = ""/>
+<area shape="rect" coords="83,76,95,87"  title="SETDB2: value=-0.732" alt = ""/>
+<area shape="rect" coords="96,76,107,87"  title="HIST1H3I: value=0.9" alt = ""/>
+<area shape="rect" coords="108,76,119,87"  title="RBBP5: value=-2.78" alt = ""/>
+<area shape="rect" coords="120,76,132,87"  title="DYDC1: value=0.088" alt = ""/>
+<area shape="rect" coords="133,76,144,87"  title="SUMO1: value=-3.592" alt = ""/>
+<area shape="rect" coords="145,76,156,87"  title="ALKBH3: value=-0.183" alt = ""/>
+<area shape="rect" coords="157,76,168,87"  title="KAT5: value=6.348" alt = ""/>
+<area shape="rect" coords="170,76,181,87"  title="H2AFZ: value=-1.74" alt = ""/>
+<area shape="rect" coords="182,76,193,87"  title="UBE2I: value=-0.016" alt = ""/>
+<area shape="rect" coords="194,76,205,87"  title="ZFP36: value=0.341" alt = ""/>
+<area shape="rect" coords="207,76,218,87"  title="NFKB1: value=0.029" alt = ""/>
+<area shape="rect" coords="219,76,230,87"  title="PRMT7: value=-1.027" alt = ""/>
+<area shape="rect" coords="231,76,242,87"  title="SUPT5H: value=1.847" alt = ""/>
+<area shape="rect" coords="244,76,255,87"  title="HDAC3: value=0.363" alt = ""/>
+<area shape="rect" coords="256,76,267,87"  title="JMJD6: value=-0.328" alt = ""/>
+<area shape="rect" coords="268,76,279,87"  title="H2AFB1: value=0.483" alt = ""/>
+<area shape="rect" coords="280,76,292,87"  title="NA: value=18.711" alt = ""/>
+<area shape="rect" coords="293,76,304,87"  title="NA: value=0.34" alt = ""/>
+<area shape="rect" coords="305,76,316,87"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,88,33,99"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,88,45,99"  title="CCNH: value=0.042" alt = ""/>
+<area shape="rect" coords="47,88,58,99"  title="ARID1A: value=-2.39" alt = ""/>
+<area shape="rect" coords="59,88,70,99"  title="ESCO2: value=1.118" alt = ""/>
+<area shape="rect" coords="71,88,82,99"  title="SATB1: value=0.633" alt = ""/>
+<area shape="rect" coords="83,88,95,99"  title="MECP2: value=-0.629" alt = ""/>
+<area shape="rect" coords="96,88,107,99"  title="ATAD2: value=-0.95" alt = ""/>
+<area shape="rect" coords="108,88,119,99"  title="CHAF1A: value=8.171" alt = ""/>
+<area shape="rect" coords="120,88,132,99"  title="NKAP: value=0.276" alt = ""/>
+<area shape="rect" coords="133,88,144,99"  title="POLR2L: value=0.209" alt = ""/>
+<area shape="rect" coords="145,88,156,99"  title="MYBBP1A: value=-1.331" alt = ""/>
+<area shape="rect" coords="157,88,168,99"  title="HNRNPA2B1: value=-1.163" alt = ""/>
+<area shape="rect" coords="170,88,181,99"  title="POGZ: value=0.077" alt = ""/>
+<area shape="rect" coords="182,88,193,99"  title="SAFB: value=-1.516" alt = ""/>
+<area shape="rect" coords="194,88,205,99"  title="RTF1: value=-0.046" alt = ""/>
+<area shape="rect" coords="207,88,218,99"  title="APOBEC3G: value=2.337" alt = ""/>
+<area shape="rect" coords="219,88,230,99"  title="POLE3: value=-0.434" alt = ""/>
+<area shape="rect" coords="231,88,242,99"  title="OGG1: value=0.734" alt = ""/>
+<area shape="rect" coords="244,88,255,99"  title="TIPARP: value=-0.838" alt = ""/>
+<area shape="rect" coords="256,88,267,99"  title="CNOT7: value=0.241" alt = ""/>
+<area shape="rect" coords="268,88,279,99"  title="KAT2B: value=-0.997" alt = ""/>
+<area shape="rect" coords="280,88,292,99"  title="NA: value=-0.223" alt = ""/>
+<area shape="rect" coords="293,88,304,99"  title="NA: value=-1.398" alt = ""/>
+<area shape="rect" coords="305,88,316,99"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,100,33,111"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,100,45,111"  title="RNF2: value=0.332" alt = ""/>
+<area shape="rect" coords="47,100,58,111"  title="PHF20: value=-0.238" alt = ""/>
+<area shape="rect" coords="59,100,70,111"  title="APOBEC3F: value=1.715" alt = ""/>
+<area shape="rect" coords="71,100,82,111"  title="SUMO3: value=0.348" alt = ""/>
+<area shape="rect" coords="83,100,95,111"  title="PHF1: value=0.146" alt = ""/>
+<area shape="rect" coords="96,100,107,111"  title="AHCTF1: value=-0.436" alt = ""/>
+<area shape="rect" coords="108,100,119,111"  title="HDAC1: value=0.073" alt = ""/>
+<area shape="rect" coords="120,100,132,111"  title="RBBP7: value=-0.642" alt = ""/>
+<area shape="rect" coords="133,100,144,111"  title="HDAC11: value=-1.86" alt = ""/>
+<area shape="rect" coords="145,100,156,111"  title="KMT2A: value=-1.607" alt = ""/>
+<area shape="rect" coords="157,100,168,111"  title="CHD7: value=-0.3" alt = ""/>
+<area shape="rect" coords="170,100,181,111"  title="SETD3: value=1.069" alt = ""/>
+<area shape="rect" coords="182,100,193,111"  title="KCNQ1: value=-1.6" alt = ""/>
+<area shape="rect" coords="194,100,205,111"  title="SPOUT1: value=-0.853" alt = ""/>
+<area shape="rect" coords="207,100,218,111"  title="TIMELESS: value=7.062" alt = ""/>
+<area shape="rect" coords="219,100,230,111"  title="MED25: value=0.944" alt = ""/>
+<area shape="rect" coords="231,100,242,111"  title="RANBP2: value=-2.042" alt = ""/>
+<area shape="rect" coords="244,100,255,111"  title="WAC: value=-0.082" alt = ""/>
+<area shape="rect" coords="256,100,267,111"  title="PKN1: value=1.56" alt = ""/>
+<area shape="rect" coords="268,100,279,111"  title="SETMAR: value=0.092" alt = ""/>
+<area shape="rect" coords="280,100,292,111"  title="NA: value=6.359" alt = ""/>
+<area shape="rect" coords="293,100,304,111"  title="NA: value=3.751" alt = ""/>
+<area shape="rect" coords="305,100,316,111"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,112,33,122"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,112,45,122"  title="HDAC9: value=-2.783" alt = ""/>
+<area shape="rect" coords="47,112,58,122"  title="HIST1H1D: value=-2.295" alt = ""/>
+<area shape="rect" coords="59,112,70,122"  title="RUVBL1: value=0.798" alt = ""/>
+<area shape="rect" coords="71,112,82,122"  title="BCDIN3D: value=0.258" alt = ""/>
+<area shape="rect" coords="83,112,95,122"  title="NUP210: value=-0.483" alt = ""/>
+<area shape="rect" coords="96,112,107,122"  title="BRCA1: value=-1.057" alt = ""/>
+<area shape="rect" coords="108,112,119,122"  title="TSPY4: value=11.206" alt = ""/>
+<area shape="rect" coords="120,112,132,122"  title="SUZ12: value=0.075" alt = ""/>
+<area shape="rect" coords="133,112,144,122"  title="POLR2B: value=3.301" alt = ""/>
+<area shape="rect" coords="145,112,156,122"  title="SIRT6: value=-1.524" alt = ""/>
+<area shape="rect" coords="157,112,168,122"  title="CDC73: value=-0.081" alt = ""/>
+<area shape="rect" coords="170,112,181,122"  title="CENPI: value=0.923" alt = ""/>
+<area shape="rect" coords="182,112,193,122"  title="PPP1R10: value=0.338" alt = ""/>
+<area shape="rect" coords="194,112,205,122"  title="H2BFWT: value=0.081" alt = ""/>
+<area shape="rect" coords="207,112,218,122"  title="DHX9: value=-0.287" alt = ""/>
+<area shape="rect" coords="219,112,230,122"  title="PHC1: value=0.107" alt = ""/>
+<area shape="rect" coords="231,112,242,122"  title="PCGF2: value=-1.914" alt = ""/>
+<area shape="rect" coords="244,112,255,122"  title="SNIP1: value=0.438" alt = ""/>
+<area shape="rect" coords="256,112,267,122"  title="DNMT3L: value=-1.291" alt = ""/>
+<area shape="rect" coords="268,112,279,122"  title="MBD1: value=-0.348" alt = ""/>
+<area shape="rect" coords="280,112,292,122"  title="NA: value=-0.113" alt = ""/>
+<area shape="rect" coords="293,112,304,122"  title="NA: value=-0.674" alt = ""/>
+<area shape="rect" coords="305,112,316,122"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,124,33,134"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,124,45,134"  title="CBX6: value=-0.269" alt = ""/>
+<area shape="rect" coords="47,124,58,134"  title="TFAP2C: value=-2.815" alt = ""/>
+<area shape="rect" coords="59,124,70,134"  title="NEIL1: value=-0.206" alt = ""/>
+<area shape="rect" coords="71,124,82,134"  title="HIST1H4F: value=0.518" alt = ""/>
+<area shape="rect" coords="83,124,95,134"  title="TBL1X: value=-0.124" alt = ""/>
+<area shape="rect" coords="96,124,107,134"  title="HIST1H1E: value=4.314" alt = ""/>
+<area shape="rect" coords="108,124,119,134"  title="AURKB: value=3.888" alt = ""/>
+<area shape="rect" coords="120,124,132,134"  title="TNRC6B: value=-0.106" alt = ""/>
+<area shape="rect" coords="133,124,144,134"  title="POLQ: value=1.229" alt = ""/>
+<area shape="rect" coords="145,124,156,134"  title="NUP133: value=-3.618" alt = ""/>
+<area shape="rect" coords="157,124,168,134"  title="RBBP4: value=2.715" alt = ""/>
+<area shape="rect" coords="170,124,181,134"  title="CDCA5: value=1.752" alt = ""/>
+<area shape="rect" coords="182,124,193,134"  title="MBD3L1: value=0.109" alt = ""/>
+<area shape="rect" coords="194,124,205,134"  title="VRK1: value=-0.273" alt = ""/>
+<area shape="rect" coords="207,124,218,134"  title="MBD3L5: value=-1.538" alt = ""/>
+<area shape="rect" coords="219,124,230,134"  title="TSPY8: value=0.508" alt = ""/>
+<area shape="rect" coords="231,124,242,134"  title="CHAF1B: value=9.109" alt = ""/>
+<area shape="rect" coords="244,124,255,134"  title="CENPP: value=-2.525" alt = ""/>
+<area shape="rect" coords="256,124,267,134"  title="EIF1: value=-2.845" alt = ""/>
+<area shape="rect" coords="268,124,279,134"  title="CENPC: value=3.032" alt = ""/>
+<area shape="rect" coords="280,124,292,134"  title="NA: value=10.255" alt = ""/>
+<area shape="rect" coords="293,124,304,134"  title="NA: value=3.603" alt = ""/>
+<area shape="rect" coords="305,124,316,134"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,136,33,146"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,136,45,146"  title="UTY: value=-2.168" alt = ""/>
+<area shape="rect" coords="47,136,58,146"  title="AGO3: value=-1.206" alt = ""/>
+<area shape="rect" coords="59,136,70,146"  title="CREBBP: value=-2.354" alt = ""/>
+<area shape="rect" coords="71,136,82,146"  title="NCOA5: value=1.039" alt = ""/>
+<area shape="rect" coords="83,136,95,146"  title="HMGA2: value=0.286" alt = ""/>
+<area shape="rect" coords="96,136,107,146"  title="SWI5: value=1.807" alt = ""/>
+<area shape="rect" coords="108,136,119,146"  title="USP51: value=-1.329" alt = ""/>
+<area shape="rect" coords="120,136,132,146"  title="HIST1H2AG: value=1.754" alt = ""/>
+<area shape="rect" coords="133,136,144,146"  title="DROSHA: value=-0.07" alt = ""/>
+<area shape="rect" coords="145,136,156,146"  title="NCOA2: value=-2.978" alt = ""/>
+<area shape="rect" coords="157,136,168,146"  title="HIST1H4H: value=0.756" alt = ""/>
+<area shape="rect" coords="170,136,181,146"  title="SMAD3: value=1.765" alt = ""/>
+<area shape="rect" coords="182,136,193,146"  title="H2AFB3: value=-1.183" alt = ""/>
+<area shape="rect" coords="194,136,205,146"  title="CHD8: value=0.044" alt = ""/>
+<area shape="rect" coords="207,136,218,146"  title="MEN1: value=-0.029" alt = ""/>
+<area shape="rect" coords="219,136,230,146"  title="PIWIL2: value=-0.303" alt = ""/>
+<area shape="rect" coords="231,136,242,146"  title="CDYL: value=-1.028" alt = ""/>
+<area shape="rect" coords="244,136,255,146"  title="USP22: value=0.556" alt = ""/>
+<area shape="rect" coords="256,136,267,146"  title="NUP188: value=0.233" alt = ""/>
+<area shape="rect" coords="268,136,279,146"  title="DNMT1: value=0.61" alt = ""/>
+<area shape="rect" coords="280,136,292,146"  title="NA: value=1.264" alt = ""/>
+<area shape="rect" coords="293,136,304,146"  title="NA: value=-1.094" alt = ""/>
+<area shape="rect" coords="305,136,316,146"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,148,33,158"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,148,45,158"  title="SETD6: value=0.023" alt = ""/>
+<area shape="rect" coords="47,148,58,158"  title="HIST2H2AB: value=0.76" alt = ""/>
+<area shape="rect" coords="59,148,70,158"  title="TTF1: value=-0.411" alt = ""/>
+<area shape="rect" coords="71,148,82,158"  title="KDM4B: value=1.57" alt = ""/>
+<area shape="rect" coords="83,148,95,158"  title="HIST3H2A: value=-1.344" alt = ""/>
+<area shape="rect" coords="96,148,107,158"  title="BRMS1: value=-0.041" alt = ""/>
+<area shape="rect" coords="108,148,119,158"  title="AUTS2: value=0.598" alt = ""/>
+<area shape="rect" coords="120,148,132,158"  title="MTRR: value=1.016" alt = ""/>
+<area shape="rect" coords="133,148,144,158"  title="CBX2: value=-0.653" alt = ""/>
+<area shape="rect" coords="145,148,156,158"  title="NUP35: value=0.27" alt = ""/>
+<area shape="rect" coords="157,148,168,158"  title="RNF20: value=-1.669" alt = ""/>
+<area shape="rect" coords="170,148,181,158"  title="ELP4: value=-0.792" alt = ""/>
+<area shape="rect" coords="182,148,193,158"  title="PPP3CA: value=0.676" alt = ""/>
+<area shape="rect" coords="194,148,205,158"  title="RCC1: value=-0.044" alt = ""/>
+<area shape="rect" coords="207,148,218,158"  title="KANSL1: value=-1.01" alt = ""/>
+<area shape="rect" coords="219,148,230,158"  title="MLH1: value=0.434" alt = ""/>
+<area shape="rect" coords="231,148,242,158"  title="HIST1H2AD: value=0.654" alt = ""/>
+<area shape="rect" coords="244,148,255,158"  title="PLK1: value=7.037" alt = ""/>
+<area shape="rect" coords="256,148,267,158"  title="DNTTIP1: value=-0.106" alt = ""/>
+<area shape="rect" coords="268,148,279,158"  title="SPTY2D1: value=-0.454" alt = ""/>
+<area shape="rect" coords="280,148,292,158"  title="NA: value=10.452" alt = ""/>
+<area shape="rect" coords="293,148,304,158"  title="NA: value=4.69" alt = ""/>
+<area shape="rect" coords="305,148,316,158"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,159,33,170"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,159,45,170"  title="POLR2G: value=6.062" alt = ""/>
+<area shape="rect" coords="47,159,58,170"  title="STAT3: value=-1.092" alt = ""/>
+<area shape="rect" coords="59,159,70,170"  title="UPF1: value=-0.268" alt = ""/>
+<area shape="rect" coords="71,159,82,170"  title="SUPT6H: value=1.594" alt = ""/>
+<area shape="rect" coords="83,159,95,170"  title="PRMT1: value=-0.071" alt = ""/>
+<area shape="rect" coords="96,159,107,170"  title="TSPYL4: value=0.041" alt = ""/>
+<area shape="rect" coords="108,159,119,170"  title="MEIOB: value=-1.919" alt = ""/>
+<area shape="rect" coords="120,159,132,170"  title="PRMT6: value=-0.533" alt = ""/>
+<area shape="rect" coords="133,159,144,170"  title="SIN3A: value=-1.004" alt = ""/>
+<area shape="rect" coords="145,159,156,170"  title="ZC3H10: value=1.305" alt = ""/>
+<area shape="rect" coords="157,159,168,170"  title="TSPYL5: value=-0.059" alt = ""/>
+<area shape="rect" coords="170,159,181,170"  title="NSD3: value=1.962" alt = ""/>
+<area shape="rect" coords="182,159,193,170"  title="POLR2A: value=5.559" alt = ""/>
+<area shape="rect" coords="194,159,205,170"  title="HIST2H2AC: value=2.262" alt = ""/>
+<area shape="rect" coords="207,159,218,170"  title="KDM6A: value=-1.613" alt = ""/>
+<area shape="rect" coords="219,159,230,170"  title="TTC5: value=0.246" alt = ""/>
+<area shape="rect" coords="231,159,242,170"  title="EPC2: value=0.612" alt = ""/>
+<area shape="rect" coords="244,159,255,170"  title="HIST1H3J: value=-1.926" alt = ""/>
+<area shape="rect" coords="256,159,267,170"  title="RAG2: value=-1.157" alt = ""/>
+<area shape="rect" coords="268,159,279,170"  title="KDM5C: value=1.736" alt = ""/>
+<area shape="rect" coords="280,159,292,170"  title="NA: value=1.901" alt = ""/>
+<area shape="rect" coords="293,159,304,170"  title="NA: value=-1.326" alt = ""/>
+<area shape="rect" coords="305,159,316,170"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,171,33,182"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,171,45,182"  title="ARID4A: value=-2.026" alt = ""/>
+<area shape="rect" coords="47,171,58,182"  title="TET1: value=-1.049" alt = ""/>
+<area shape="rect" coords="59,171,70,182"  title="TFPT: value=0.553" alt = ""/>
+<area shape="rect" coords="71,171,82,182"  title="RIF1: value=-0.64" alt = ""/>
+<area shape="rect" coords="83,171,95,182"  title="ASF1A: value=2.54" alt = ""/>
+<area shape="rect" coords="96,171,107,182"  title="H2AFB2: value=-1.353" alt = ""/>
+<area shape="rect" coords="108,171,119,182"  title="HIC1: value=-0.972" alt = ""/>
+<area shape="rect" coords="120,171,132,182"  title="ATRX: value=-0.279" alt = ""/>
+<area shape="rect" coords="133,171,144,182"  title="HIRA: value=1.577" alt = ""/>
+<area shape="rect" coords="145,171,156,182"  title="HDAC7: value=0.457" alt = ""/>
+<area shape="rect" coords="157,171,168,182"  title="ZNF304: value=1.277" alt = ""/>
+<area shape="rect" coords="170,171,181,182"  title="CENPW: value=-2.439" alt = ""/>
+<area shape="rect" coords="182,171,193,182"  title="HP1BP3: value=0.737" alt = ""/>
+<area shape="rect" coords="194,171,205,182"  title="CENPB: value=0.294" alt = ""/>
+<area shape="rect" coords="207,171,218,182"  title="KDM2B: value=0.446" alt = ""/>
+<area shape="rect" coords="219,171,230,182"  title="RUVBL2: value=-0.107" alt = ""/>
+<area shape="rect" coords="231,171,242,182"  title="ASH2L: value=-1.171" alt = ""/>
+<area shape="rect" coords="244,171,255,182"  title="LIN28A: value=-2.354" alt = ""/>
+<area shape="rect" coords="256,171,267,182"  title="CENPN: value=0.106" alt = ""/>
+<area shape="rect" coords="268,171,279,182"  title="TDRD1: value=0.476" alt = ""/>
+<area shape="rect" coords="280,171,292,182"  title="NA: value=18.8" alt = ""/>
+<area shape="rect" coords="293,171,304,182"  title="NA: value=1.583" alt = ""/>
+<area shape="rect" coords="305,171,316,182"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,183,33,194"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,183,45,194"  title="TSPYL2: value=-0.225" alt = ""/>
+<area shape="rect" coords="47,183,58,194"  title="TRIM27: value=0.419" alt = ""/>
+<area shape="rect" coords="59,183,70,194"  title="ACTB: value=-1.859" alt = ""/>
+<area shape="rect" coords="71,183,82,194"  title="HIST1H3B: value=-0.258" alt = ""/>
+<area shape="rect" coords="83,183,95,194"  title="METTL3: value=0.262" alt = ""/>
+<area shape="rect" coords="96,183,107,194"  title="UBR2: value=0.646" alt = ""/>
+<area shape="rect" coords="108,183,119,194"  title="CD3EAP: value=1.319" alt = ""/>
+<area shape="rect" coords="120,183,132,194"  title="HDAC10: value=-0.075" alt = ""/>
+<area shape="rect" coords="133,183,144,194"  title="BABAM1: value=0.07" alt = ""/>
+<area shape="rect" coords="145,183,156,194"  title="PRDM7: value=0.553" alt = ""/>
+<area shape="rect" coords="157,183,168,194"  title="PARP1: value=0.626" alt = ""/>
+<area shape="rect" coords="170,183,181,194"  title="TGFB1: value=-2.771" alt = ""/>
+<area shape="rect" coords="182,183,193,194"  title="PLK2: value=-0.642" alt = ""/>
+<area shape="rect" coords="194,183,205,194"  title="NTHL1: value=-0.321" alt = ""/>
+<area shape="rect" coords="207,183,218,194"  title="FAM111A: value=0.794" alt = ""/>
+<area shape="rect" coords="219,183,230,194"  title="SMARCAD1: value=0.637" alt = ""/>
+<area shape="rect" coords="231,183,242,194"  title="APOBEC3A: value=-0.472" alt = ""/>
+<area shape="rect" coords="244,183,255,194"  title="POLD1: value=-0.064" alt = ""/>
+<area shape="rect" coords="256,183,267,194"  title="POLR2H: value=6.286" alt = ""/>
+<area shape="rect" coords="268,183,279,194"  title="EMD: value=-0.715" alt = ""/>
+<area shape="rect" coords="280,183,292,194"  title="NA: value=3.111" alt = ""/>
+<area shape="rect" coords="293,183,304,194"  title="NA: value=1.103" alt = ""/>
+<area shape="rect" coords="305,183,316,194"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,195,33,206"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,195,45,206"  title="CHD3: value=1.411" alt = ""/>
+<area shape="rect" coords="47,195,58,206"  title="MNAT1: value=2.463" alt = ""/>
+<area shape="rect" coords="59,195,70,206"  title="SIRT4: value=-0.16" alt = ""/>
+<area shape="rect" coords="71,195,82,206"  title="PARP12: value=-0.296" alt = ""/>
+<area shape="rect" coords="83,195,95,206"  title="UHRF1: value=0.071" alt = ""/>
+<area shape="rect" coords="96,195,107,206"  title="MBD3L2: value=-0.089" alt = ""/>
+<area shape="rect" coords="108,195,119,206"  title="HIST1H2AA: value=-0.379" alt = ""/>
+<area shape="rect" coords="120,195,132,206"  title="M1AP: value=0.453" alt = ""/>
+<area shape="rect" coords="133,195,144,206"  title="ARID1B: value=-1.016" alt = ""/>
+<area shape="rect" coords="145,195,156,206"  title="NUP160: value=-5.805" alt = ""/>
+<area shape="rect" coords="157,195,168,206"  title="RNF4: value=0.42" alt = ""/>
+<area shape="rect" coords="170,195,181,206"  title="NUP85: value=-2.708" alt = ""/>
+<area shape="rect" coords="182,195,193,206"  title="MIER1: value=0.048" alt = ""/>
+<area shape="rect" coords="194,195,205,206"  title="MORF4L1: value=0.341" alt = ""/>
+<area shape="rect" coords="207,195,218,206"  title="KDM5D: value=-0.036" alt = ""/>
+<area shape="rect" coords="219,195,230,206"  title="ASZ1: value=0.461" alt = ""/>
+<area shape="rect" coords="231,195,242,206"  title="CHD5: value=-2.468" alt = ""/>
+<area shape="rect" coords="244,195,255,206"  title="ALKBH2: value=0.114" alt = ""/>
+<area shape="rect" coords="256,195,267,206"  title="CHD6: value=-0.68" alt = ""/>
+<area shape="rect" coords="268,195,279,206"  title="RRP8: value=0.351" alt = ""/>
+<area shape="rect" coords="280,195,292,206"  title="NA: value=5.289" alt = ""/>
+<area shape="rect" coords="293,195,304,206"  title="NA: value=2.244" alt = ""/>
+<area shape="rect" coords="305,195,316,206"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,207,33,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,207,45,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="47,207,58,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="59,207,70,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="71,207,82,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="83,207,95,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="96,207,107,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="108,207,119,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="120,207,132,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="133,207,144,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="145,207,156,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="157,207,168,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="170,207,181,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="182,207,193,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="194,207,205,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="207,207,218,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="219,207,230,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="231,207,242,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="244,207,255,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="256,207,267,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="268,207,279,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="280,207,292,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="293,207,304,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="305,207,316,218"  title="NA: value=NA" alt = ""/>
+</map>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('pp_Channel1_1.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+</td>
+<td>
+
+                <table class="image  invisible perExpQC channel1 replicate5" align="center">
+                  <tr>
+                    <td class="header">
+                      <div class="header">
+	                Replicate  2
+                      </div>
+                      <div class="caption">
+	                
+                      </div>
+                    </td>
+                  </tr>
+
+               <tr>
+                    <td class="main">
+                      <img class="image" src="pp_Channel1_2.png" usemap="#map_pp_Channel1_2.png"><map name="map_pp_Channel1_2.png" id="map_pp_Channel1_2.png">
+<area shape="rect" coords="22,28,33,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,28,45,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="47,28,58,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="59,28,70,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="71,28,82,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="83,28,95,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="96,28,107,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="108,28,119,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="120,28,132,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="133,28,144,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="145,28,156,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="157,28,168,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="170,28,181,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="182,28,193,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="194,28,205,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="207,28,218,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="219,28,230,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="231,28,242,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="244,28,255,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="256,28,267,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="268,28,279,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="280,28,292,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="293,28,304,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="305,28,316,39"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,40,33,51"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,40,45,51"  title="MBD2: value=-0.889" alt = ""/>
+<area shape="rect" coords="47,40,58,51"  title="PCNA: value=6.709" alt = ""/>
+<area shape="rect" coords="59,40,70,51"  title="KAT7: value=0.011" alt = ""/>
+<area shape="rect" coords="71,40,82,51"  title="PHF8: value=-0.175" alt = ""/>
+<area shape="rect" coords="83,40,95,51"  title="DNMT3B: value=-0.779" alt = ""/>
+<area shape="rect" coords="96,40,107,51"  title="USP49: value=-0.655" alt = ""/>
+<area shape="rect" coords="108,40,119,51"  title="LEMD2: value=0.026" alt = ""/>
+<area shape="rect" coords="120,40,132,51"  title="HIST1H1A: value=0.821" alt = ""/>
+<area shape="rect" coords="133,40,144,51"  title="HMGB2: value=-0.41" alt = ""/>
+<area shape="rect" coords="145,40,156,51"  title="NSD1: value=-0.228" alt = ""/>
+<area shape="rect" coords="157,40,168,51"  title="FAM60A: value=-1.339" alt = ""/>
+<area shape="rect" coords="170,40,181,51"  title="TNRC6A: value=0.009" alt = ""/>
+<area shape="rect" coords="182,40,193,51"  title="TDRD5: value=-0.004" alt = ""/>
+<area shape="rect" coords="194,40,205,51"  title="ERCC6: value=1.692" alt = ""/>
+<area shape="rect" coords="207,40,218,51"  title="NMNAT1: value=3.181" alt = ""/>
+<area shape="rect" coords="219,40,230,51"  title="BEND3: value=-1.129" alt = ""/>
+<area shape="rect" coords="231,40,242,51"  title="PCGF1: value=0.073" alt = ""/>
+<area shape="rect" coords="244,40,255,51"  title="SENP1: value=0.036" alt = ""/>
+<area shape="rect" coords="256,40,267,51"  title="TAF1A: value=-0.073" alt = ""/>
+<area shape="rect" coords="268,40,279,51"  title="BMI1: value=1.18" alt = ""/>
+<area shape="rect" coords="280,40,292,51"  title="NA: value=-0.467" alt = ""/>
+<area shape="rect" coords="293,40,304,51"  title="NA: value=-0.904" alt = ""/>
+<area shape="rect" coords="305,40,316,51"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,52,33,63"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,52,45,63"  title="LEO1: value=-0.787" alt = ""/>
+<area shape="rect" coords="47,52,58,63"  title="BRMS1L: value=-0.032" alt = ""/>
+<area shape="rect" coords="59,52,70,63"  title="SMARCC2: value=0.541" alt = ""/>
+<area shape="rect" coords="71,52,82,63"  title="PARP9: value=-0.548" alt = ""/>
+<area shape="rect" coords="83,52,95,63"  title="TBL1XR1: value=-0.49" alt = ""/>
+<area shape="rect" coords="96,52,107,63"  title="ZNRD1: value=0.146" alt = ""/>
+<area shape="rect" coords="108,52,119,63"  title="HJURP: value=-0.026" alt = ""/>
+<area shape="rect" coords="120,52,132,63"  title="NCBP1: value=-0.878" alt = ""/>
+<area shape="rect" coords="133,52,144,63"  title="HNRNPC: value=1.518" alt = ""/>
+<area shape="rect" coords="145,52,156,63"  title="WDR61: value=-0.378" alt = ""/>
+<area shape="rect" coords="157,52,168,63"  title="ING3: value=1.045" alt = ""/>
+<area shape="rect" coords="170,52,181,63"  title="UBN1: value=1.739" alt = ""/>
+<area shape="rect" coords="182,52,193,63"  title="L3MBTL3: value=1.128" alt = ""/>
+<area shape="rect" coords="194,52,205,63"  title="EXO1: value=0.015" alt = ""/>
+<area shape="rect" coords="207,52,218,63"  title="SF3B1: value=-0.029" alt = ""/>
+<area shape="rect" coords="219,52,230,63"  title="KDM3B: value=0.605" alt = ""/>
+<area shape="rect" coords="231,52,242,63"  title="DNMT3A: value=0.906" alt = ""/>
+<area shape="rect" coords="244,52,255,63"  title="WDR82: value=1.17" alt = ""/>
+<area shape="rect" coords="256,52,267,63"  title="SEH1L: value=-0.099" alt = ""/>
+<area shape="rect" coords="268,52,279,63"  title="XPO5: value=-0.183" alt = ""/>
+<area shape="rect" coords="280,52,292,63"  title="NA: value=2.716" alt = ""/>
+<area shape="rect" coords="293,52,304,63"  title="NA: value=2.197" alt = ""/>
+<area shape="rect" coords="305,52,316,63"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,64,33,75"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,64,45,75"  title="APOBEC1: value=-0.032" alt = ""/>
+<area shape="rect" coords="47,64,58,75"  title="ANP32B: value=0.06" alt = ""/>
+<area shape="rect" coords="59,64,70,75"  title="CENPA: value=1.224" alt = ""/>
+<area shape="rect" coords="71,64,82,75"  title="BRD2: value=-2.611" alt = ""/>
+<area shape="rect" coords="83,64,95,75"  title="KMT5B: value=2.501" alt = ""/>
+<area shape="rect" coords="96,64,107,75"  title="TMPO: value=-1.949" alt = ""/>
+<area shape="rect" coords="108,64,119,75"  title="LRWD1: value=-0.27" alt = ""/>
+<area shape="rect" coords="120,64,132,75"  title="SMYD2: value=0.33" alt = ""/>
+<area shape="rect" coords="133,64,144,75"  title="SMYD3: value=-0.473" alt = ""/>
+<area shape="rect" coords="145,64,156,75"  title="HIST1H2AL: value=1.081" alt = ""/>
+<area shape="rect" coords="157,64,168,75"  title="TSPY3: value=-0.636" alt = ""/>
+<area shape="rect" coords="170,64,181,75"  title="TDRD3: value=0.764" alt = ""/>
+<area shape="rect" coords="182,64,193,75"  title="NUP214: value=-2.06" alt = ""/>
+<area shape="rect" coords="194,64,205,75"  title="TNRC18: value=0.141" alt = ""/>
+<area shape="rect" coords="207,64,218,75"  title="SAP18: value=0.029" alt = ""/>
+<area shape="rect" coords="219,64,230,75"  title="DND1: value=-0.143" alt = ""/>
+<area shape="rect" coords="231,64,242,75"  title="L3MBTL4: value=-0.944" alt = ""/>
+<area shape="rect" coords="244,64,255,75"  title="NEIL2: value=-0.696" alt = ""/>
+<area shape="rect" coords="256,64,267,75"  title="PARP15: value=1.709" alt = ""/>
+<area shape="rect" coords="268,64,279,75"  title="KDM4C: value=0.628" alt = ""/>
+<area shape="rect" coords="280,64,292,75"  title="NA: value=0.464" alt = ""/>
+<area shape="rect" coords="293,64,304,75"  title="NA: value=0.296" alt = ""/>
+<area shape="rect" coords="305,64,316,75"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,76,33,87"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,76,45,87"  title="ERCC3: value=0.648" alt = ""/>
+<area shape="rect" coords="47,76,58,87"  title="APOBEC3H: value=0.032" alt = ""/>
+<area shape="rect" coords="59,76,70,87"  title="MBD4: value=-0.752" alt = ""/>
+<area shape="rect" coords="71,76,82,87"  title="HMG20B: value=-0.156" alt = ""/>
+<area shape="rect" coords="83,76,95,87"  title="SETDB2: value=-0.167" alt = ""/>
+<area shape="rect" coords="96,76,107,87"  title="HIST1H3I: value=0.772" alt = ""/>
+<area shape="rect" coords="108,76,119,87"  title="RBBP5: value=-1.324" alt = ""/>
+<area shape="rect" coords="120,76,132,87"  title="DYDC1: value=-0.393" alt = ""/>
+<area shape="rect" coords="133,76,144,87"  title="SUMO1: value=-1.214" alt = ""/>
+<area shape="rect" coords="145,76,156,87"  title="ALKBH3: value=0.137" alt = ""/>
+<area shape="rect" coords="157,76,168,87"  title="KAT5: value=3.85" alt = ""/>
+<area shape="rect" coords="170,76,181,87"  title="H2AFZ: value=0.905" alt = ""/>
+<area shape="rect" coords="182,76,193,87"  title="UBE2I: value=-0.04" alt = ""/>
+<area shape="rect" coords="194,76,205,87"  title="ZFP36: value=-1.153" alt = ""/>
+<area shape="rect" coords="207,76,218,87"  title="NFKB1: value=-0.928" alt = ""/>
+<area shape="rect" coords="219,76,230,87"  title="PRMT7: value=0.103" alt = ""/>
+<area shape="rect" coords="231,76,242,87"  title="SUPT5H: value=0.446" alt = ""/>
+<area shape="rect" coords="244,76,255,87"  title="HDAC3: value=-0.38" alt = ""/>
+<area shape="rect" coords="256,76,267,87"  title="JMJD6: value=0.54" alt = ""/>
+<area shape="rect" coords="268,76,279,87"  title="H2AFB1: value=0.569" alt = ""/>
+<area shape="rect" coords="280,76,292,87"  title="NA: value=5.754" alt = ""/>
+<area shape="rect" coords="293,76,304,87"  title="NA: value=3.444" alt = ""/>
+<area shape="rect" coords="305,76,316,87"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,88,33,99"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,88,45,99"  title="CCNH: value=-0.652" alt = ""/>
+<area shape="rect" coords="47,88,58,99"  title="ARID1A: value=0.088" alt = ""/>
+<area shape="rect" coords="59,88,70,99"  title="ESCO2: value=-0.562" alt = ""/>
+<area shape="rect" coords="71,88,82,99"  title="SATB1: value=-0.087" alt = ""/>
+<area shape="rect" coords="83,88,95,99"  title="MECP2: value=0.137" alt = ""/>
+<area shape="rect" coords="96,88,107,99"  title="ATAD2: value=1.109" alt = ""/>
+<area shape="rect" coords="108,88,119,99"  title="CHAF1A: value=4.823" alt = ""/>
+<area shape="rect" coords="120,88,132,99"  title="NKAP: value=1.911" alt = ""/>
+<area shape="rect" coords="133,88,144,99"  title="POLR2L: value=0.553" alt = ""/>
+<area shape="rect" coords="145,88,156,99"  title="MYBBP1A: value=1.627" alt = ""/>
+<area shape="rect" coords="157,88,168,99"  title="HNRNPA2B1: value=-1.18" alt = ""/>
+<area shape="rect" coords="170,88,181,99"  title="POGZ: value=-1.225" alt = ""/>
+<area shape="rect" coords="182,88,193,99"  title="SAFB: value=-0.872" alt = ""/>
+<area shape="rect" coords="194,88,205,99"  title="RTF1: value=-0.527" alt = ""/>
+<area shape="rect" coords="207,88,218,99"  title="APOBEC3G: value=-0.914" alt = ""/>
+<area shape="rect" coords="219,88,230,99"  title="POLE3: value=1.386" alt = ""/>
+<area shape="rect" coords="231,88,242,99"  title="OGG1: value=-0.937" alt = ""/>
+<area shape="rect" coords="244,88,255,99"  title="TIPARP: value=0.467" alt = ""/>
+<area shape="rect" coords="256,88,267,99"  title="CNOT7: value=2.18" alt = ""/>
+<area shape="rect" coords="268,88,279,99"  title="KAT2B: value=-0.605" alt = ""/>
+<area shape="rect" coords="280,88,292,99"  title="NA: value=0.224" alt = ""/>
+<area shape="rect" coords="293,88,304,99"  title="NA: value=0.488" alt = ""/>
+<area shape="rect" coords="305,88,316,99"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,100,33,111"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,100,45,111"  title="RNF2: value=-0.238" alt = ""/>
+<area shape="rect" coords="47,100,58,111"  title="PHF20: value=-0.266" alt = ""/>
+<area shape="rect" coords="59,100,70,111"  title="APOBEC3F: value=0.72" alt = ""/>
+<area shape="rect" coords="71,100,82,111"  title="SUMO3: value=-0.396" alt = ""/>
+<area shape="rect" coords="83,100,95,111"  title="PHF1: value=0.966" alt = ""/>
+<area shape="rect" coords="96,100,107,111"  title="AHCTF1: value=-0.131" alt = ""/>
+<area shape="rect" coords="108,100,119,111"  title="HDAC1: value=0.504" alt = ""/>
+<area shape="rect" coords="120,100,132,111"  title="RBBP7: value=0.728" alt = ""/>
+<area shape="rect" coords="133,100,144,111"  title="HDAC11: value=-0.055" alt = ""/>
+<area shape="rect" coords="145,100,156,111"  title="KMT2A: value=0.718" alt = ""/>
+<area shape="rect" coords="157,100,168,111"  title="CHD7: value=1.133" alt = ""/>
+<area shape="rect" coords="170,100,181,111"  title="SETD3: value=0.344" alt = ""/>
+<area shape="rect" coords="182,100,193,111"  title="KCNQ1: value=0.004" alt = ""/>
+<area shape="rect" coords="194,100,205,111"  title="SPOUT1: value=-0.015" alt = ""/>
+<area shape="rect" coords="207,100,218,111"  title="TIMELESS: value=5.271" alt = ""/>
+<area shape="rect" coords="219,100,230,111"  title="MED25: value=-0.296" alt = ""/>
+<area shape="rect" coords="231,100,242,111"  title="RANBP2: value=-2.018" alt = ""/>
+<area shape="rect" coords="244,100,255,111"  title="WAC: value=-0.657" alt = ""/>
+<area shape="rect" coords="256,100,267,111"  title="PKN1: value=1.113" alt = ""/>
+<area shape="rect" coords="268,100,279,111"  title="SETMAR: value=-0.01" alt = ""/>
+<area shape="rect" coords="280,100,292,111"  title="NA: value=7.85" alt = ""/>
+<area shape="rect" coords="293,100,304,111"  title="NA: value=1.377" alt = ""/>
+<area shape="rect" coords="305,100,316,111"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,112,33,122"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,112,45,122"  title="HDAC9: value=-1.677" alt = ""/>
+<area shape="rect" coords="47,112,58,122"  title="HIST1H1D: value=-0.914" alt = ""/>
+<area shape="rect" coords="59,112,70,122"  title="RUVBL1: value=0.83" alt = ""/>
+<area shape="rect" coords="71,112,82,122"  title="BCDIN3D: value=1.443" alt = ""/>
+<area shape="rect" coords="83,112,95,122"  title="NUP210: value=0.4" alt = ""/>
+<area shape="rect" coords="96,112,107,122"  title="BRCA1: value=0.131" alt = ""/>
+<area shape="rect" coords="108,112,119,122"  title="TSPY4: value=10.022" alt = ""/>
+<area shape="rect" coords="120,112,132,122"  title="SUZ12: value=0.046" alt = ""/>
+<area shape="rect" coords="133,112,144,122"  title="POLR2B: value=4.817" alt = ""/>
+<area shape="rect" coords="145,112,156,122"  title="SIRT6: value=-1.311" alt = ""/>
+<area shape="rect" coords="157,112,168,122"  title="CDC73: value=-2.336" alt = ""/>
+<area shape="rect" coords="170,112,181,122"  title="CENPI: value=-0.983" alt = ""/>
+<area shape="rect" coords="182,112,193,122"  title="PPP1R10: value=-1.061" alt = ""/>
+<area shape="rect" coords="194,112,205,122"  title="H2BFWT: value=-0.302" alt = ""/>
+<area shape="rect" coords="207,112,218,122"  title="DHX9: value=-1.224" alt = ""/>
+<area shape="rect" coords="219,112,230,122"  title="PHC1: value=0.749" alt = ""/>
+<area shape="rect" coords="231,112,242,122"  title="PCGF2: value=0.314" alt = ""/>
+<area shape="rect" coords="244,112,255,122"  title="SNIP1: value=1.515" alt = ""/>
+<area shape="rect" coords="256,112,267,122"  title="DNMT3L: value=-0.028" alt = ""/>
+<area shape="rect" coords="268,112,279,122"  title="MBD1: value=-0.794" alt = ""/>
+<area shape="rect" coords="280,112,292,122"  title="NA: value=-0.093" alt = ""/>
+<area shape="rect" coords="293,112,304,122"  title="NA: value=0.622" alt = ""/>
+<area shape="rect" coords="305,112,316,122"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,124,33,134"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,124,45,134"  title="CBX6: value=0.032" alt = ""/>
+<area shape="rect" coords="47,124,58,134"  title="TFAP2C: value=-1.143" alt = ""/>
+<area shape="rect" coords="59,124,70,134"  title="NEIL1: value=-0.214" alt = ""/>
+<area shape="rect" coords="71,124,82,134"  title="HIST1H4F: value=-0.022" alt = ""/>
+<area shape="rect" coords="83,124,95,134"  title="TBL1X: value=-2.028" alt = ""/>
+<area shape="rect" coords="96,124,107,134"  title="HIST1H1E: value=0.65" alt = ""/>
+<area shape="rect" coords="108,124,119,134"  title="AURKB: value=2.888" alt = ""/>
+<area shape="rect" coords="120,124,132,134"  title="TNRC6B: value=-0.046" alt = ""/>
+<area shape="rect" coords="133,124,144,134"  title="POLQ: value=-0.469" alt = ""/>
+<area shape="rect" coords="145,124,156,134"  title="NUP133: value=-3.348" alt = ""/>
+<area shape="rect" coords="157,124,168,134"  title="RBBP4: value=2.766" alt = ""/>
+<area shape="rect" coords="170,124,181,134"  title="CDCA5: value=1.393" alt = ""/>
+<area shape="rect" coords="182,124,193,134"  title="MBD3L1: value=0.261" alt = ""/>
+<area shape="rect" coords="194,124,205,134"  title="VRK1: value=-0.478" alt = ""/>
+<area shape="rect" coords="207,124,218,134"  title="MBD3L5: value=0.443" alt = ""/>
+<area shape="rect" coords="219,124,230,134"  title="TSPY8: value=0.768" alt = ""/>
+<area shape="rect" coords="231,124,242,134"  title="CHAF1B: value=7.112" alt = ""/>
+<area shape="rect" coords="244,124,255,134"  title="CENPP: value=-0.82" alt = ""/>
+<area shape="rect" coords="256,124,267,134"  title="EIF1: value=0.714" alt = ""/>
+<area shape="rect" coords="268,124,279,134"  title="CENPC: value=-2.88" alt = ""/>
+<area shape="rect" coords="280,124,292,134"  title="NA: value=2.227" alt = ""/>
+<area shape="rect" coords="293,124,304,134"  title="NA: value=1.884" alt = ""/>
+<area shape="rect" coords="305,124,316,134"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,136,33,146"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,136,45,146"  title="UTY: value=-0.997" alt = ""/>
+<area shape="rect" coords="47,136,58,146"  title="AGO3: value=0.421" alt = ""/>
+<area shape="rect" coords="59,136,70,146"  title="CREBBP: value=0.145" alt = ""/>
+<area shape="rect" coords="71,136,82,146"  title="NCOA5: value=1.003" alt = ""/>
+<area shape="rect" coords="83,136,95,146"  title="HMGA2: value=1.119" alt = ""/>
+<area shape="rect" coords="96,136,107,146"  title="SWI5: value=-1.829" alt = ""/>
+<area shape="rect" coords="108,136,119,146"  title="USP51: value=-1.362" alt = ""/>
+<area shape="rect" coords="120,136,132,146"  title="HIST1H2AG: value=0.278" alt = ""/>
+<area shape="rect" coords="133,136,144,146"  title="DROSHA: value=-0.807" alt = ""/>
+<area shape="rect" coords="145,136,156,146"  title="NCOA2: value=0.182" alt = ""/>
+<area shape="rect" coords="157,136,168,146"  title="HIST1H4H: value=2.226" alt = ""/>
+<area shape="rect" coords="170,136,181,146"  title="SMAD3: value=0.294" alt = ""/>
+<area shape="rect" coords="182,136,193,146"  title="H2AFB3: value=-0.144" alt = ""/>
+<area shape="rect" coords="194,136,205,146"  title="CHD8: value=-1.273" alt = ""/>
+<area shape="rect" coords="207,136,218,146"  title="MEN1: value=0.996" alt = ""/>
+<area shape="rect" coords="219,136,230,146"  title="PIWIL2: value=-0.269" alt = ""/>
+<area shape="rect" coords="231,136,242,146"  title="CDYL: value=-0.375" alt = ""/>
+<area shape="rect" coords="244,136,255,146"  title="USP22: value=1.51" alt = ""/>
+<area shape="rect" coords="256,136,267,146"  title="NUP188: value=-0.423" alt = ""/>
+<area shape="rect" coords="268,136,279,146"  title="DNMT1: value=-1.157" alt = ""/>
+<area shape="rect" coords="280,136,292,146"  title="NA: value=0.57" alt = ""/>
+<area shape="rect" coords="293,136,304,146"  title="NA: value=0.525" alt = ""/>
+<area shape="rect" coords="305,136,316,146"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,148,33,158"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,148,45,158"  title="SETD6: value=0.473" alt = ""/>
+<area shape="rect" coords="47,148,58,158"  title="HIST2H2AB: value=-1.202" alt = ""/>
+<area shape="rect" coords="59,148,70,158"  title="TTF1: value=-0.065" alt = ""/>
+<area shape="rect" coords="71,148,82,158"  title="KDM4B: value=0.022" alt = ""/>
+<area shape="rect" coords="83,148,95,158"  title="HIST3H2A: value=-1.243" alt = ""/>
+<area shape="rect" coords="96,148,107,158"  title="BRMS1: value=1.342" alt = ""/>
+<area shape="rect" coords="108,148,119,158"  title="AUTS2: value=0.479" alt = ""/>
+<area shape="rect" coords="120,148,132,158"  title="MTRR: value=-0.848" alt = ""/>
+<area shape="rect" coords="133,148,144,158"  title="CBX2: value=1.531" alt = ""/>
+<area shape="rect" coords="145,148,156,158"  title="NUP35: value=0.215" alt = ""/>
+<area shape="rect" coords="157,148,168,158"  title="RNF20: value=0.245" alt = ""/>
+<area shape="rect" coords="170,148,181,158"  title="ELP4: value=-0.009" alt = ""/>
+<area shape="rect" coords="182,148,193,158"  title="PPP3CA: value=0.514" alt = ""/>
+<area shape="rect" coords="194,148,205,158"  title="RCC1: value=-0.424" alt = ""/>
+<area shape="rect" coords="207,148,218,158"  title="KANSL1: value=-0.973" alt = ""/>
+<area shape="rect" coords="219,148,230,158"  title="MLH1: value=-0.055" alt = ""/>
+<area shape="rect" coords="231,148,242,158"  title="HIST1H2AD: value=-0.066" alt = ""/>
+<area shape="rect" coords="244,148,255,158"  title="PLK1: value=6.949" alt = ""/>
+<area shape="rect" coords="256,148,267,158"  title="DNTTIP1: value=0.028" alt = ""/>
+<area shape="rect" coords="268,148,279,158"  title="SPTY2D1: value=-1.339" alt = ""/>
+<area shape="rect" coords="280,148,292,158"  title="NA: value=3.31" alt = ""/>
+<area shape="rect" coords="293,148,304,158"  title="NA: value=0.431" alt = ""/>
+<area shape="rect" coords="305,148,316,158"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,159,33,170"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,159,45,170"  title="POLR2G: value=5.501" alt = ""/>
+<area shape="rect" coords="47,159,58,170"  title="STAT3: value=-1.027" alt = ""/>
+<area shape="rect" coords="59,159,70,170"  title="UPF1: value=-0.496" alt = ""/>
+<area shape="rect" coords="71,159,82,170"  title="SUPT6H: value=3.878" alt = ""/>
+<area shape="rect" coords="83,159,95,170"  title="PRMT1: value=0.442" alt = ""/>
+<area shape="rect" coords="96,159,107,170"  title="TSPYL4: value=0.887" alt = ""/>
+<area shape="rect" coords="108,159,119,170"  title="MEIOB: value=-0.53" alt = ""/>
+<area shape="rect" coords="120,159,132,170"  title="PRMT6: value=-0.254" alt = ""/>
+<area shape="rect" coords="133,159,144,170"  title="SIN3A: value=0.504" alt = ""/>
+<area shape="rect" coords="145,159,156,170"  title="ZC3H10: value=-0.137" alt = ""/>
+<area shape="rect" coords="157,159,168,170"  title="TSPYL5: value=-0.015" alt = ""/>
+<area shape="rect" coords="170,159,181,170"  title="NSD3: value=-0.214" alt = ""/>
+<area shape="rect" coords="182,159,193,170"  title="POLR2A: value=3.627" alt = ""/>
+<area shape="rect" coords="194,159,205,170"  title="HIST2H2AC: value=1.575" alt = ""/>
+<area shape="rect" coords="207,159,218,170"  title="KDM6A: value=-1.056" alt = ""/>
+<area shape="rect" coords="219,159,230,170"  title="TTC5: value=2.284" alt = ""/>
+<area shape="rect" coords="231,159,242,170"  title="EPC2: value=-0.275" alt = ""/>
+<area shape="rect" coords="244,159,255,170"  title="HIST1H3J: value=-1.249" alt = ""/>
+<area shape="rect" coords="256,159,267,170"  title="RAG2: value=0.195" alt = ""/>
+<area shape="rect" coords="268,159,279,170"  title="KDM5C: value=0.01" alt = ""/>
+<area shape="rect" coords="280,159,292,170"  title="NA: value=-0.703" alt = ""/>
+<area shape="rect" coords="293,159,304,170"  title="NA: value=0.716" alt = ""/>
+<area shape="rect" coords="305,159,316,170"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,171,33,182"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,171,45,182"  title="ARID4A: value=0.315" alt = ""/>
+<area shape="rect" coords="47,171,58,182"  title="TET1: value=-0.15" alt = ""/>
+<area shape="rect" coords="59,171,70,182"  title="TFPT: value=0.342" alt = ""/>
+<area shape="rect" coords="71,171,82,182"  title="RIF1: value=0.936" alt = ""/>
+<area shape="rect" coords="83,171,95,182"  title="ASF1A: value=3.088" alt = ""/>
+<area shape="rect" coords="96,171,107,182"  title="H2AFB2: value=-0.806" alt = ""/>
+<area shape="rect" coords="108,171,119,182"  title="HIC1: value=-0.494" alt = ""/>
+<area shape="rect" coords="120,171,132,182"  title="ATRX: value=-0.082" alt = ""/>
+<area shape="rect" coords="133,171,144,182"  title="HIRA: value=0.009" alt = ""/>
+<area shape="rect" coords="145,171,156,182"  title="HDAC7: value=1.549" alt = ""/>
+<area shape="rect" coords="157,171,168,182"  title="ZNF304: value=-0.681" alt = ""/>
+<area shape="rect" coords="170,171,181,182"  title="CENPW: value=-0.834" alt = ""/>
+<area shape="rect" coords="182,171,193,182"  title="HP1BP3: value=1.869" alt = ""/>
+<area shape="rect" coords="194,171,205,182"  title="CENPB: value=1.067" alt = ""/>
+<area shape="rect" coords="207,171,218,182"  title="KDM2B: value=0.142" alt = ""/>
+<area shape="rect" coords="219,171,230,182"  title="RUVBL2: value=-0.592" alt = ""/>
+<area shape="rect" coords="231,171,242,182"  title="ASH2L: value=-0.009" alt = ""/>
+<area shape="rect" coords="244,171,255,182"  title="LIN28A: value=-0.275" alt = ""/>
+<area shape="rect" coords="256,171,267,182"  title="CENPN: value=-1.142" alt = ""/>
+<area shape="rect" coords="268,171,279,182"  title="TDRD1: value=0.468" alt = ""/>
+<area shape="rect" coords="280,171,292,182"  title="NA: value=4.604" alt = ""/>
+<area shape="rect" coords="293,171,304,182"  title="NA: value=0.246" alt = ""/>
+<area shape="rect" coords="305,171,316,182"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,183,33,194"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,183,45,194"  title="TSPYL2: value=9.837" alt = ""/>
+<area shape="rect" coords="47,183,58,194"  title="TRIM27: value=1.918" alt = ""/>
+<area shape="rect" coords="59,183,70,194"  title="ACTB: value=-2.083" alt = ""/>
+<area shape="rect" coords="71,183,82,194"  title="HIST1H3B: value=2.121" alt = ""/>
+<area shape="rect" coords="83,183,95,194"  title="METTL3: value=-1.359" alt = ""/>
+<area shape="rect" coords="96,183,107,194"  title="UBR2: value=-0.837" alt = ""/>
+<area shape="rect" coords="108,183,119,194"  title="CD3EAP: value=-2.438" alt = ""/>
+<area shape="rect" coords="120,183,132,194"  title="HDAC10: value=0.266" alt = ""/>
+<area shape="rect" coords="133,183,144,194"  title="BABAM1: value=-0.009" alt = ""/>
+<area shape="rect" coords="145,183,156,194"  title="PRDM7: value=-1.745" alt = ""/>
+<area shape="rect" coords="157,183,168,194"  title="PARP1: value=0.008" alt = ""/>
+<area shape="rect" coords="170,183,181,194"  title="TGFB1: value=-0.569" alt = ""/>
+<area shape="rect" coords="182,183,193,194"  title="PLK2: value=-0.009" alt = ""/>
+<area shape="rect" coords="194,183,205,194"  title="NTHL1: value=0.893" alt = ""/>
+<area shape="rect" coords="207,183,218,194"  title="FAM111A: value=1.536" alt = ""/>
+<area shape="rect" coords="219,183,230,194"  title="SMARCAD1: value=0.055" alt = ""/>
+<area shape="rect" coords="231,183,242,194"  title="APOBEC3A: value=0.918" alt = ""/>
+<area shape="rect" coords="244,183,255,194"  title="POLD1: value=-0.032" alt = ""/>
+<area shape="rect" coords="256,183,267,194"  title="POLR2H: value=-0.316" alt = ""/>
+<area shape="rect" coords="268,183,279,194"  title="EMD: value=0.267" alt = ""/>
+<area shape="rect" coords="280,183,292,194"  title="NA: value=-0.105" alt = ""/>
+<area shape="rect" coords="293,183,304,194"  title="NA: value=-1.966" alt = ""/>
+<area shape="rect" coords="305,183,316,194"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,195,33,206"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,195,45,206"  title="CHD3: value=2.309" alt = ""/>
+<area shape="rect" coords="47,195,58,206"  title="MNAT1: value=0.887" alt = ""/>
+<area shape="rect" coords="59,195,70,206"  title="SIRT4: value=-0.011" alt = ""/>
+<area shape="rect" coords="71,195,82,206"  title="PARP12: value=0.903" alt = ""/>
+<area shape="rect" coords="83,195,95,206"  title="UHRF1: value=-0.137" alt = ""/>
+<area shape="rect" coords="96,195,107,206"  title="MBD3L2: value=-0.685" alt = ""/>
+<area shape="rect" coords="108,195,119,206"  title="HIST1H2AA: value=0.709" alt = ""/>
+<area shape="rect" coords="120,195,132,206"  title="M1AP: value=-0.668" alt = ""/>
+<area shape="rect" coords="133,195,144,206"  title="ARID1B: value=1.317" alt = ""/>
+<area shape="rect" coords="145,195,156,206"  title="NUP160: value=-3.649" alt = ""/>
+<area shape="rect" coords="157,195,168,206"  title="RNF4: value=-0.008" alt = ""/>
+<area shape="rect" coords="170,195,181,206"  title="NUP85: value=-1.398" alt = ""/>
+<area shape="rect" coords="182,195,193,206"  title="MIER1: value=0.967" alt = ""/>
+<area shape="rect" coords="194,195,205,206"  title="MORF4L1: value=1.758" alt = ""/>
+<area shape="rect" coords="207,195,218,206"  title="KDM5D: value=-0.434" alt = ""/>
+<area shape="rect" coords="219,195,230,206"  title="ASZ1: value=-0.77" alt = ""/>
+<area shape="rect" coords="231,195,242,206"  title="CHD5: value=0.009" alt = ""/>
+<area shape="rect" coords="244,195,255,206"  title="ALKBH2: value=0.032" alt = ""/>
+<area shape="rect" coords="256,195,267,206"  title="CHD6: value=-0.87" alt = ""/>
+<area shape="rect" coords="268,195,279,206"  title="RRP8: value=1.342" alt = ""/>
+<area shape="rect" coords="280,195,292,206"  title="NA: value=2.096" alt = ""/>
+<area shape="rect" coords="293,195,304,206"  title="NA: value=1.577" alt = ""/>
+<area shape="rect" coords="305,195,316,206"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="22,207,33,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="34,207,45,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="47,207,58,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="59,207,70,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="71,207,82,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="83,207,95,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="96,207,107,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="108,207,119,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="120,207,132,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="133,207,144,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="145,207,156,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="157,207,168,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="170,207,181,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="182,207,193,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="194,207,205,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="207,207,218,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="219,207,230,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="231,207,242,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="244,207,255,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="256,207,267,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="268,207,279,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="280,207,292,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="293,207,304,218"  title="NA: value=NA" alt = ""/>
+<area shape="rect" coords="305,207,316,218"  title="NA: value=NA" alt = ""/>
+</map>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="pdf">
+                      <span class="pdf" onClick="linkToPdf('pp_Channel1_2.pdf');" onmouseover="Tip('Pdf version of the image.', WIDTH, 250, TITLE, '', OFFSETX, 1);" onmouseout="UnTip();">
+                        pdf
+                      </span>
+                    </td>
+                  </tr>
+</table>
+</td>
+</tr>
+</table>
+
+              </tr>
+            </td>  
+          </table>

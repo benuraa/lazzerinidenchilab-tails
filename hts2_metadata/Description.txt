@@ -1,20 +1,20 @@
 [Lab description]
 Experimenter name: Benura Azeroglu / Gianluca Pegoraro
 Laboratory: High-Throughput Imaging Facility | National Cancer Institute / NIH, Bethesda, MD, USA
-Contact information: benura.azeroglu.nih.gov / gianluca.pegoraro@nih.gov
+Contact information: b.azeroglu@nih.gov / gianluca.pegoraro@nih.gov
 
 [Screen description]
-Screen: Telomeric nFISH - Low ALT background
-Title: sgRNA screen for the identification of regulators of ALT elongation (Low ALT)
+Screen: ssTelo - ALT background
+Title: sgRNA screen for the identification of regulators of ALT elongation - TAILS
 Version: 1.0
 Date: September 2023
 Screentype: sgRNA
 Organism: Homo Sapiens
 Celltype: U2OS-Cas9
 Library: Synthego sgRNA hEpigenetics + Synthego sgRNA Guin Custom
-Assay:  nFISH number of spots, nFISH intensity
+Assay:  ssTelo number of spots, ssTelo intensity
 Assaytype: High-Content Imaging
-Assaydescription: Measurement of nFISH intensity in Telomeric foci
+Assaydescription: Measurement of ssTelo intensity in Telomeric foci
 [Publication description]
 Publicationtitle:
 Reference:
